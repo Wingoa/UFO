@@ -1,4 +1,6 @@
 # UFO
 UFO project for Digital Humanities
 
-Lara V, Austin W, and Ryan F.
+Lara V. - Web design/UX maven & Quality control officer
+Austin W. - Team co-ordinator & Subject expert
+Ryan F. - Documentation officer & Quality control officer
