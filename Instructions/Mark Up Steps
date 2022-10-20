@@ -1,3 +1,17 @@
 Separate UFO sightings from Alien sightings
 
-Tag the dates/ heading/
+Tag these items:
+
+Dates : <dates @date="MM/DD/YYYY"></date>
+
+Sighting Location: <siteLoc @loc=""></siteLoc>
+
+Report body: <body></body>
+
+Alien desc: <alien></alien>
+
+UFO desc: <ufo></ufo>
+
+People involved: <peep></peep>
+
+Organization: <organization @org="name"></organization>
