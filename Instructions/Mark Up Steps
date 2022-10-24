@@ -1,17 +1,18 @@
-Separate UFO sightings from Alien sightings
+I've made up a rough draft for the schema.
 
-Tag these items:
+It's definitely going to need updated as we mark up additional reports, but it's something to
 
-Dates : <dates @date="MM/DD/YYYY"></date>
+base the next ones off of.
 
-Sighting Location: <siteLoc @loc=""></siteLoc>
+As we need stuff just add it to the schema as long as it won't break any of the old reports.
 
-Report body: <body></body>
 
-Alien desc: <alien></alien>
 
-UFO desc: <ufo></ufo>
 
-People involved: <peep></peep>
+Also: 
 
-Organization: <organization @org="name"></organization>
+Files that contain a "D" mean they are done in whatever folder they are in.
+
+If they have a "H", that means there needs to be some manual work completed
+
+such as manually typing a .pdf report into a .doc file.
