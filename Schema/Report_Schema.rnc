@@ -6,7 +6,7 @@ report = element report {id, head, address?, body, signature?}
 
     id = attribute id {text} 
     
-    head = element head {(text | eventName | year | organization | location)*}
+    head = element head {(text | eventName | eventDate | year | organization | location)*}
     
        eventName = element eventName {text}
        
@@ -22,7 +22,7 @@ report = element report {id, head, address?, body, signature?}
             
     address = element address {text}
             
-    body = element body {(text | organization | event | eventLocation | eventDate | alienDesc | weather)*}
+    body = element body {(text | organization | event | location | eventLocation | eventDate | alienDesc | ufoDesc | weather)*}
     
         event = element event {text}
             
@@ -35,6 +35,8 @@ report = element report {id, head, address?, body, signature?}
             date = attribute date {text} 
             
         alienDesc = element alienDesc {text}
+        
+        ufoDesc = element ufoDesc {text}
         
         weather = element weather {text}
        

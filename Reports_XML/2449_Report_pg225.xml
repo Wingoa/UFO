@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <report id="2449_pg225">
 
     <head> From: []
@@ -17,9 +19,9 @@
         
         The <organization org= "MoD">MoD</organization> in <location loc="London">London</location> became involved when the press office was contacted by the newspaper on 24th June.
         On 25th June I requested a copy of the video from Media Ops at HQ 5 Div where it had been passed by the
-        unit concerned. It shows a number of lights in the sky. As reported in the paper, <lightDesc>the lights change colour and
+        unit concerned. It shows a number of lights in the sky. As reported in the paper, <ufoDesc>the lights change colour and
         appear square, but this looks like the pixels snag up as the photographer zoomed in. They do not appear
-        to be moving vary quickly</lightDesc>.
+        to be moving vary quickly</ufoDesc>.
         
         The BBC has reported that at the same time as the alleged incident, a Iocal hotel was jefting off Chinese
         lanterns and, apparently, the hotel manager thinks the whole UFO story is “highly hilarious”.
@@ -28,12 +30,13 @@
         copyright issues surrounding the video, do not intend to retain a copy on our files.
         
         I will inform the soldiers of my decision through their 2ic.
-        
-        []
-        <signature>DAS-FOI</signature>
-        []
-        
+               
     </body>
+    
+    <signature>[]
+    DAS-FOI
+    []</signature>
+    
 </report>
     
     

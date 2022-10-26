@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <report id="2449_pg223">
     
     <head> From:[] C1-SIO [] 
            Sent: 24 June 2008 12:27
            To: []
            Cc: [] Col; [] Col []
-           Subject: release-authorised: <event>UFO sighting</event> at <eventLocation eloc ="Tern_Hill">Tern Hill</eventLocation>
+           Subject: release-authorised: <eventName>UFO sighting</eventName> at <location loc ="Tern_Hill">Tern Hill</location>
     </head>
     
     <address>[]</address>
@@ -15,7 +17,7 @@
         
         We spoke, but the following is the basic story:
         
-        I took a call this morning from the 2IC rear part at 1 Royal Irish at Tern Hill Capt[] on []
+        I took a call this morning from the 2IC rear part at 1 Royal Irish at <eventLocation eloc="Tern_Hill">Tern Hill</eventLocation> Capt[] on []
         
         A soldier who was part of a fire picket stagging on at the camp on <eventDate date="06/07/2008">7 June</eventDate> took 
         video footage with a camera on a mobile phone of what he says were <event>"UFOs"
@@ -31,8 +33,8 @@
         3. 2IC rear party says the video images are very good.
         4. The 2IC says the images could not have been anything to do with
         nearby <location loc="RAF_Shawbury">RAF Shawbury</location>.
-        5. They show lots of <shipDesc>multi-coloured dots and zoom in on a cube shaped
-            object which then flattens</shipDesc>.
+        5. They show lots of <ufoDesc>multi-coloured dots and zoom in on a cube shaped
+            object which then flattens</ufoDesc>.
         6. The Sun has already interviewed Cpl [] - he has explained to
            them what he saw.
         7. There is some suggestion of payment being offered - thought I think a 
@@ -48,11 +50,13 @@
         []
         []
         
+    </body> 
+    
         <signature>Senior Information Officer C1
         Media Ops
         HQ 5 Div
         DTN: [] CIVIL: [] MOBILE: []
         E-MAIL: []</signature>
         
-    </body>
+  
 </report>
