@@ -1,6 +1,5 @@
-datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
-
 start = report
+<<<<<<< HEAD
 
 report = element report {id, head, address?, body, signature?}
 
@@ -60,3 +59,38 @@ report = element report {id, head, address?, body, signature?}
         
             
        
+=======
+report = element report { id, head, address?, body, signature? }
+id = attribute id { text }
+head = element head { (text | eventName | eventDate | year | organization | location)* }
+eventName = element eventName { text }
+year = element year { text }
+organization = element organization { org, text }
+org = attribute org { text }
+location = element location { loc, text }
+loc = attribute loc { text }
+address = element address { text }
+body =
+    element body {
+        (text
+         | organization
+         | eventName
+         | year
+         | event
+         | location
+         | eventLocation
+         | eventDate
+         | alienDesc
+         | ufoDesc
+         | weather)*
+    }
+event = element event { text }
+eventLocation = element eventLocation { eloc, text }
+eloc = attribute eloc { text }
+eventDate = element eventDate { date, text }
+date = attribute date { text }
+alienDesc = element alienDesc { text }
+ufoDesc = element ufoDesc { text }
+weather = element weather { text }
+signature = element signature { text }
+>>>>>>> 944cf78aa884b52db15073e668eea66b8d978607
