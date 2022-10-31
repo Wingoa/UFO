@@ -22,7 +22,7 @@ report = element report {id, head, address?, body, signature?}
             
     address = element address {text}
             
-    body = element body {(text | organization | event | location | eventLocation | eventDate | alienDesc | ufoDesc | weather)*}
+    body = element body {(text | organization | event | location | eventLocation | eventDate | alienDesc | ufoDesc | weather | year)*}
     
         event = element event {text}
             
