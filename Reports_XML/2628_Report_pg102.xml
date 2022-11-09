@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<report id="2628_pg102">
+    <body>This photograph was taken by myself on <eventDate date="08/27/2006">Sunday the 27th of
+            August 2006</eventDate>, in the Trough of <eventLocation eloc="Bowland_Lancashire"
+            >Bowland, Lancashire</eventLocation> about 3 miles from <eventName>Dunsop
+            Drickie</eventName> traveling towards Lancaster and captured <ufoDesc>something flying
+            in the sky</ufoDesc> above a grassy ridge. I was using a canon 7-million-pixel digital
+        camera. I saw the <ufoDesc>craft hovering for a few minutes</ufoDesc> and was able to take
+        this snap. Whlist waiting for the camera to a cock itself for the next frame, <ufoDesc>the
+            craft took off vertically at an amazing velocity</ufoDesc>. <weather>The craft, however,
+            was unfortunately in the shadow of a cloud and cannot be seer to cast a
+        shadow</weather>. I<event> have submitted this photograph to many newspapers and ufo
+            groups</event>, but have only ever received one reply that said "very interesting" I
+        hope that this photo may ‘interest you'</body>
+    <signature> Burniev,Tancashire</signature>
+</report>
