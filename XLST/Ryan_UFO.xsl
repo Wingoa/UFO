@@ -19,6 +19,7 @@
               <h2>Table of Contents</h2>
         <ul><xsl:apply-templates select="$UFOreports//report" mode="toc"/></ul>
               <hr/>
+              <xsl:apply-templates select="$UFOreports//report"/> 
           </body>
           
       </html>
@@ -30,7 +31,7 @@
     
     </xsl:template>
     
-    <xsl:template match="report" mode="toc">
+    <xsl:template match="report">
         <h2><xsl:apply-templates select="@id"/>
         </h2>
        
