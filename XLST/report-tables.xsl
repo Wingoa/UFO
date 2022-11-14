@@ -85,7 +85,7 @@
                                         </th>
                                         <td>
                                             <h4 style="font-weight: normal;">
-                                                <xsl:apply-templates select="//eventDate/@date"/>
+                                                <xsl:apply-templates select="//eventDate/@date"/> <!-- this needs to be value of -->
                                             </h4>
                                         </td>
                                     </tr>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<report id="2459_pg128">
+    <head>Sent: 08 February 2009 10:37 To: Air CmdSecCS-UFO Desk Subject:
+            <eventName>Sighting</eventName></head>
+    <address> Hi,</address>
+    <body>I'm not sure that these were UFOs, but last night on <eventDate date="02/02/2009">7
+            February 2009</eventDate> I saw <ufoDesc>2 strange lights in the sky</ufoDesc> over
+            <eventLocation eloc="Basingstoke_Hampshire">Basingstoke in Hampshire</eventLocation>. At
+            <weather>11:1Opm</weather> my partner and I noticed a very <ufoDesc> bright orange light
+            travelling very fast</ufoDesc> from North to South East. <ufoDesc>It was too large and
+            bright to be a plane</ufoDesc>, <ufoDesc>it was in view for approx 1 minute then
+            disappeared behind a cloud</ufoDesc>. <ufoDesc>We could notice no noise or
+            tail</ufoDesc>. At <weather>12:10am</weather> on 8 February I noticed what appeared to
+        be an <ufoDesc>extremely bright</ufoDesc>, <ufoDesc>white star</ufoDesc>, where the
+            <ufoDesc>orange light</ufoDesc> had originated. <ufoDesc>The star seemed to fall out of
+            the sky, towards the ground very quickly</ufoDesc>. <ufoDesc>It disappeared within
+            seconds</ufoDesc>. If you happen to know what these lights were and could let me know, I
+        would appreciate it.</body>
+    <signature>Kind regards []</signature>
+</report>
