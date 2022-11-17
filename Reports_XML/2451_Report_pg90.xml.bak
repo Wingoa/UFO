@@ -2,7 +2,7 @@
 
 <?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 
-<report id="2451_Report_pg90">
+<report id="2451_pg90">
 
     <head> The Officer Responsible, The UFO. Desk, <organization org="RAF">Royal Air Force
             Section</organization>

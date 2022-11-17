@@ -2,7 +2,7 @@
 
 <?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 
-<report id="2456_Report_pg234">
+<report id="2456_pg234">
 
     <head>M.O.D. Main Building Whitehall Annan <location loc="Dumfriesshire_London">Dumfriesshire
             London</location> Section4 13-07-09 <eventName>UFO Sightings</eventName> since 1996

@@ -2,7 +2,7 @@
 
 <?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 
-<report id="2454_Report_pg246">
+<report id="2454_pg246">
 
     <head>Sent: <eventDate date="01/13/2009">13 January 2009</eventDate> 15:31 To: Alr CmdSecCS-UFO
         Desk Subject: <eventName>Strange sighting</eventName> [RESTRICTED] Classification:

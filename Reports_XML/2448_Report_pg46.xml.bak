@@ -2,7 +2,7 @@
 
 <?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 
-<report id="2448_Report_pg46">
+<report id="2448_pg46">
 
     <head> Ref: <eventName>Bentwaters Incident</eventName>, <year>1980</year>
         <organization org="MoD">Ministry of Defence</organization> Main Building Whitehall <location

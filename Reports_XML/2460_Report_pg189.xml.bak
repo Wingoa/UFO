@@ -2,7 +2,7 @@
 
 <?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 
-<report id="2460_Report_pg189">
+<report id="2460_pg189">
 
     <head><eventName>VAP/UFO SIGHTING REPORT</eventName>. For Air Sec. 2a.</head>
 

@@ -2,7 +2,7 @@
 
 <?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 
-<report id="2460_Report_pg113">
+<report id="2460_pg113">
     <head><eventName>UFO sighting – Derbyshire</eventName></head>
     <address>Hi,</address>
 

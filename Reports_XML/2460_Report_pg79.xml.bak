@@ -2,7 +2,7 @@
 
 <?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 
-<report id="2460_Report_pg79">
+<report id="2460_pg79">
     <body>Anyway, with reference to what I saw on my trip to <eventName>Gatwick on
             Monday</eventName>
         <eventDate date="09/01/2008">1st September 2008</eventDate>, here is my account of what took

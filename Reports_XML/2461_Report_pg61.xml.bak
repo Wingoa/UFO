@@ -2,7 +2,7 @@
 
 <?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 
-<report id="2461_Report_pg61">
+<report id="2461_pg61">
 
     <head>Sent: <eventDate date="06/17/2009">17 June 2009 14:52</eventDate> Subject: Release-
         Authorized: <eventName>UFO Report</eventName>

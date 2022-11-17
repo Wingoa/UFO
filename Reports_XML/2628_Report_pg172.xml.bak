@@ -2,7 +2,7 @@
 
 <?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 
-<report id="2628_Report_pg172">
+<report id="2628_pg172">
 
     <head> </head>
     <body> <event>I am writing to tell you what I really saw</event>. In <eventDate date="10/01/1992">October

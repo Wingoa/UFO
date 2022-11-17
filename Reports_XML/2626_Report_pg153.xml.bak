@@ -2,7 +2,7 @@
 
 <?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 
-<report id="2626_Report_pg153">
+<report id="2626_pg153">
 
     <head>
         <organization org="DAS">DAS-UFO-Office</organization> Wiltshire UFOs 20th Sept 2008 HI, This

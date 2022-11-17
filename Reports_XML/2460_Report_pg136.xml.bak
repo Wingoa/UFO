@@ -2,7 +2,7 @@
 
 <?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 
-<report id="2460_Report_pg136">
+<report id="2460_pg136">
 
     <head>Sent: 01 April 2009 23:23 To: Air CmdSecCS-UFO Desk Subject: Sighting</head>
 

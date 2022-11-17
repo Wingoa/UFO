@@ -2,7 +2,7 @@
 
 <?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 
-<report id="2449_Report_pg223">
+<report id="2449_pg223">
 
     <head> From:[] C1-SIO [] Sent: 24 June 2008 12:27 To: [] Cc: [] Col; [] Col [] Subject:
         release-authorised: <eventName>UFO sighting</eventName> at <location loc="Tern_Hill">Tern

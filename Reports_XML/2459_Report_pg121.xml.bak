@@ -2,7 +2,7 @@
 
 <?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 
-<report id="2459_Report_pg121">
+<report id="2459_pg121">
     <head>05/02/2009</head>
     <address> Dear Sir / Madam,</address>
     <body> Whilst driving along <eventName>Wolstanton Road</eventName>, <eventLocation

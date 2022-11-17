@@ -2,7 +2,7 @@
 
 <?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 
-<report id="2628_Report_pg102">
+<report id="2628_pg102">
     <body>This photograph was taken by myself on <eventDate date="08/27/2006">Sunday the 27th of
             August 2006</eventDate>, in the Trough of <eventLocation eloc="Bowland_Lancashire"
             >Bowland, Lancashire</eventLocation> about 3 miles from <eventName>Dunsop

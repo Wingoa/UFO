@@ -2,7 +2,7 @@
 
 <?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 
-<report id="2459_Report_pg6">
+<report id="2459_pg6">
 
     <head>To: Subject: Air CmdSecCS-UFO Desk Report - <eventName>Strange Lights in the
             Sky</eventName></head>
