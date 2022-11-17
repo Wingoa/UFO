@@ -31,11 +31,11 @@
         
     </xsl:template>
     
-    <xsl:template match="eventDate">
-        <h2><xsl:apply-templates select="@date"/>
+    <xsl:template match="report">
+        <h2><xsl:value-of select="descendant::eventDate/@date"/>
         </h2>
         
-        <xsl:apply-templates select="descendant::body"/>
+        <xsl:apply-templates select="body"/>
     </xsl:template>
     
     <xsl:template match="body">
