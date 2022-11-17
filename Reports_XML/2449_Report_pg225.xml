@@ -4,39 +4,29 @@
 
 <report id="2449_pg225">
 
-    <head> From: []
-           Sent: 26 June 2008 14:29
-           To:[]
-           Subject: <eventName>TERN HILL SIGHTING</eventName> <eventDate date="06/07/2008">7 JUNE 2008</eventDate>
+    <head> From: [] Sent: 26 June 2008 14:29 To:[] Subject: <eventName>TERN HILL
+            SIGHTING</eventName>
+        <eventDate date="06/07/2008">7 JUNE 2008</eventDate>
     </head>
-    
-    <body>
-        
-        The Sun has reported a <event>UFO sighting</event> over <eventLocation eloc ="Temhill_Barracks">Temhill Barracks</eventLocation> in <location loc="Shropshire">Shropshire</location> at about 11pm on <eventDate date="06/07/2008">7 June 2008</eventDate>. It
-        appears that a number of soldiers saw lights in the sky and made a video which they have passed to the
-        newspaper. They have not made a formal written report on the matter, although they did inform their
-        superiors.
-        
-        The <organization org= "MoD">MoD</organization> in <location loc="London">London</location> became involved when the press office was contacted by the newspaper on 24th June.
-        On 25th June I requested a copy of the video from Media Ops at HQ 5 Div where it had been passed by the
-        unit concerned. It shows a number of lights in the sky. As reported in the paper, <ufoDesc>the lights change colour and
-        appear square, but this looks like the pixels snag up as the photographer zoomed in. They do not appear
-        to be moving vary quickly</ufoDesc>.
-        
-        The BBC has reported that at the same time as the alleged incident, a Iocal hotel was jefting off Chinese
-        lanterns and, apparently, the hotel manager thinks the whole UFO story is “highly hilarious”.
-        
-        I do not intend to investigate any further as I think we have our answer and, as I suspect there might be
-        copyright issues surrounding the video, do not intend to retain a copy on our files.
-        
-        I will inform the soldiers of my decision through their 2ic.
-               
-    </body>
-    
-    <signature>[]
-    DAS-FOI
-    []</signature>
-    
+
+    <body> The Sun has reported a UFO sighting over <eventLocation
+            eloc="Temhill_Barracks">Temhill Barracks</eventLocation> in <location loc="Shropshire"
+            >Shropshire</location> at about <weather>11pm</weather> on <eventDate date="06/07/2008">7 June
+            2008</eventDate>. It appears that a number of soldiers saw <ufoDesc>lights in the sky</ufoDesc> and made a
+        video which they have passed to the newspaper. They have not made a formal written report on
+        the matter, although they did inform their superiors. The <organization org="MoD"
+            >MoD</organization> in <location loc="London">London</location> became involved when the
+        press office was contacted by the newspaper on 24th June. On 25th June I requested a copy of
+        the video from <organization org="MOGQ">Media Ops at HQ 5 Div</organization> where it had been passed by the unit concerned. It
+        shows a number of lights in the sky. As reported in the paper, <ufoDesc>the lights change
+            colour and appear square, but this looks like the pixels snag up as the photographer
+            zoomed in. They do not appear to be moving vary quickly</ufoDesc>. The <organization org="BBC">BBC</organization> has reported
+        that at the same time as the alleged incident, <event>a local hotel was lighting off Chinese
+        lanterns and, apparently, the hotel manager thinks the whole UFO story is “highly
+        hilarious”</event>. I do not intend to investigate any further as I think we have our answer and, as
+        I suspect there might be copyright issues surrounding the video, do not intend to retain a
+        copy on our files. I will inform the soldiers of my decision through their 2ic. </body>
+
+    <signature>[] DAS-FOI []</signature>
+
 </report>
-    
-    

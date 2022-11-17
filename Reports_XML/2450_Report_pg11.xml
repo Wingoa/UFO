@@ -3,49 +3,26 @@
 <?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <report id="2450_pg11">
-       
-       <head> From: Birmingham UFO Group
-           Sent: 27 November 2008 22:34
-           To: cro@direct.shawburylgs.raf.mod.uk
-           Subject: <eventName>2nd May 2008 UFO and Police Helicopter</eventName>
-           Importance: High 
-       </head>
-        
-    <body>
-    
-    With regards to the the Airprox incident report 055/08 which involved a West Midlands Police helicopter and
-    an unidentified flying object on <eventDate date="05/02/2008">2nd May 2008</eventDate> which shows a very extensive investigation which took place.
-    
-    We are investigating this incident further as we have 2 additional Police Officers who experienced an <ufoDesc>object of
-    a similar nature which had blue lights</ufoDesc> on the previous night <eventDate date="05/01/2008">1st May</eventDate>.
-    We also have acquired photographs from an officer which we are trying to confirm is of that particular night.
-    Firstly this incident happened on the <eventDate date="05/02/2008">2nd May</eventDate> and involved an <ufoDesc>object with blue/green lights</ufoDesc> and was 
-    witnessed by a Police helicopter.
-    
-    We are looking for further assistance and a Freedom of Information request on any details relating to this
-    particular event. We are also seeking permission to use details from the Airprox report to further assist us and
-    build part of our final report.
-    
-    Please feel free to contact me with any issues or information
-    
-    Thank you for your time
-    
-    </body>   
-    
-    <signature>Regards
-        []
-        Birmingham UFO Group
-        www.bufog.com
-    </signature>
-    
-       
-    </report>
+
+    <head> From: Birmingham UFO Group Sent: 27 November 2008 22:34 To:
+        cro@direct.shawburylgs.raf.mod.uk Subject: 2nd May 2008 UFO and Police
+            Helicopter Importance: High </head>
+
+    <body> With regards to the the <eventName>Airprox incident</eventName> report 055/08 which involved a <organization
+            org="WMP"><eventLocation eloc="West_Midlands">West Midlands</eventLocation> Police</organization> helicopter and an unidentified flying
+        object on <eventDate date="05/02/2008">2nd May 2008</eventDate> which shows a very extensive
+        investigation which took place. We are investigating this incident further as we have
+            <event>2 additional Police Officers</event> who experienced an <ufoDesc>object of a
+            similar nature which had blue lights</ufoDesc> on the previous <weather>night</weather>
+        1st May. <event>We also have acquired photographs from an officer which we are trying to
+            confirm is of that particular night</event>. Firstly this incident happened on the 2nd
+        May and involved an <ufoDesc>object with blue/green lights</ufoDesc> and was witnessed by a
+        Police helicopter. We are looking for further assistance and a Freedom of Information
+        request on any details relating to this particular event. We are also seeking permission to
+        use details from the Airprox report to further assist us and build part of our final report.
+        Please feel free to contact me with any issues or information Thank you for your time </body>
+
+    <signature>Regards [] Birmingham UFO Group www.bufog.com </signature>
 
 
-
-
-
-
-
-
-
+</report>

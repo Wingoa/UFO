@@ -5,7 +5,7 @@ id = attribute id { text }
 head = element head { (text | eventName | eventDate | year | organization | location)* }
 eventName = element eventName { text }
 year = element year { text }
-organization = element organization { org, text }
+organization = element organization { org, (text | eventLocation)*}
 org = attribute org { text }
 location = element location { loc, text }
 loc = attribute loc { text }
@@ -30,7 +30,7 @@ eloc = attribute eloc { text }
 eventDate = element eventDate { date, text }
 date = attribute date { text }
 alienDesc = element alienDesc { text }
-ufoDesc = element ufoDesc { text }
+ufoDesc = element ufoDesc { (text | eventName)* }
 weather = element weather { text }
 signature = element signature { (text | organization)* }
 
