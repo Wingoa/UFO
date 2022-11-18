@@ -3,7 +3,7 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:math="http://www.w3.org/2005/xpath-functions/math" exclude-result-prefixes="xs math"
     xmlns="http://www.w3.org/1999/xhtml" version="3.0">
-
+    
     <xsl:output method="xhtml" encoding="utf-8" doctype-system="about:legacy-compat"
         omit-xml-declaration="yes"/>
 
@@ -74,24 +74,24 @@
                     </ol>
                     <hr/>
                     <xsl:for-each select="$UFOReports//report">
-
+                        
                         <xsl:sort select="//eventName"/>
-
-
+                      
+                            
                         <table id="{//@eloc}">
-
+                            
                             <tr style="background-color: #acdbff;">
                                 <h3>Event Location: <xsl:apply-templates
-                                        select='replace(//eventLocation/@eloc, "_", " ")'/></h3>
+                                    select='replace(//eventLocation/@eloc, "_", " ")'/></h3>
                             </tr>
                             <tr>
                                 <h4>Event Name: <xsl:apply-templates select="//eventName"/></h4>
                             </tr>
-
-
-                            <xsl:apply-templates select="//head"/>
-
-
+                   
+                
+                                    <xsl:apply-templates select="//head"/>
+                               
+                            
                             <tr>
                                 <p>
                                     <xsl:apply-templates select="//address"/>
@@ -107,18 +107,18 @@
                                     <xsl:apply-templates select="//signature"/>
                                 </p>
                             </tr>
-
+                            
                         </table>
-
+  
                     </xsl:for-each>
                 </body>
             </div>
-
+        
             <div id="footer"/>
 
         </html>
     </xsl:template>
-
+    
 
     <xsl:template match="//eventLocation" mode="toc">
         <li>
@@ -128,15 +128,15 @@
         </li>
 
     </xsl:template>
-
-
+    
+    
     <xsl:template match="//head">
         <tr>
             <p>
                 <xsl:apply-templates/>
             </p>
         </tr>
-
+        
     </xsl:template>
 
 </xsl:stylesheet>

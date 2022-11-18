@@ -2,7 +2,7 @@
 
 <?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 
-<report id="2450_40">
+<report id="2450_Report_pg40">
 
     <head>PART A: SUMMARY QF INFORMATION REPORTED TO <eventName>UKAB</eventName>
     </head>

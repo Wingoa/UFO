@@ -15,7 +15,7 @@
     <xsl:template match="/">
         <html>
             <head>
-                <title>UFO Report Tables</title>
+                <title>Full UFO Reports</title>
                 <link type="text/css" href="../style.css" rel="stylesheet"/>
                 <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"/>
                 <script>
@@ -30,6 +30,8 @@
                     td {
                         border: 1px solid black;
                         font-family: 'Courier New', Courier, monospace !important;
+                        text-align: left !important;
+                        padding-left: 20px;
                     }
                     tr {
                         height: 25px;
@@ -50,7 +52,6 @@
                     table {
                         background-color: #ffffff;
                         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
-                        margin-top: 50px;
                         width: 80%;
                         margin-left: auto;
                         margin-right: auto;
@@ -59,18 +60,41 @@
                     }
                     h1 {
                         font-family: 'Courier New', Courier, monospace;
-                    }</style>
+                    }
+                    ol {
+                        columns: 3;
+                        -webkit-columns: 3;
+                        -moz-columns: 3;
+                        text-align: left !important;
+                        margin-left: 250px !important;
+                   
+         
+                    }
+                </style>
             </head>
             <div id="header"/>
             <div class="container">
                 <body>
                     <h1>UFO Report List</h1>
+                    <h2>Table of Contents</h2>
+                   <div class="row">
+                    <ol>
+                        <xsl:for-each select="$UFOReports//report">
+                            <xsl:sort select="//eventDate/@date"/>
+                            <a href="#{//@id}">
+                                <xsl:apply-templates select="//eventDate" mode="toc"/>
+                            </a>
+                        </xsl:for-each>
+                    </ol>
+                            <hr/>
+                   </div>
+                    
 
                     <xsl:for-each select="$UFOReports//report">
                         <xsl:sort select="//eventName"/>
                         <div class="row justify-content-center">
                             <div class="col">
-                                <table>
+                                <table id="{//@id}">
 
                                     <tr style="background-color: #acdbff;">
                                         <th>
@@ -90,63 +114,23 @@
                                         </th>
                                         <td>
                                             <h4 style="font-weight: normal;">
-                                                <xsl:apply-templates select="//report//@id"/>
+                                                <a  href="Reports_PDF/{//@id}.pdf" target="_blank"><xsl:apply-templates select="//report//@id"/></a> 
                                             </h4>
                                         </td>
                                     </tr>
+
+
+                                </table>
+                                <table>
                                     <tr>
-                                        <th>
-                                            <h4>Report Date:</h4>
-                                        </th>
                                         <td>
                                             <h4 style="font-weight: normal;">
-                                                <xsl:apply-templates select="//eventDate//@date"/>
+                                                <xsl:apply-templates select="//report"/>
                                             </h4>
                                         </td>
                                     </tr>
-                                    <tr>
-                                        <th>
-                                            <h4>Event Location:</h4>
-                                        </th>
-                                        <th>
-                                            <h4 style="font-weight: normal;">
-                                                <xsl:apply-templates select="//eventLocation"/>
-                                            </h4>
-                                        </th>
-                                    </tr>
-                                    <tr>
-                                        <th>UFO Descriptions:</th>
-                                        <th style="font-weight: normal; text-align: left;">
-                                            <ul>
-                                                <xsl:apply-templates select="//ufoDesc"/>
-                                            </ul>
-                                        </th>
-                                    </tr>
-                                    <tr>
-                                        <th>Weather Conditions:</th>
-                                        <th style="font-weight: normal; text-align: left;">
-                                            <ul>
-                                                <xsl:apply-templates select="//weather"/>
-                                            </ul>
-                                        </th>
-                                    </tr>
-                                    <tr>
-                                        <th>Significant Notes:</th>
-                                        <th style="font-weight: normal; text-align: left;">
-                                            <ul>
-                                                <xsl:apply-templates select="//event"/>
-                                            </ul>
-                                        </th>
-                                    </tr>
-                                    <tr>
-                                        <th>Associated Organizations:</th>
-                                        <th style="font-weight: normal; text-align: left;">
-                                            <ul>
-                                                <xsl:apply-templates select="//organization"/>
-                                            </ul>
-                                        </th>
-                                    </tr>
                                 </table>
+
                             </div>
                         </div>
 
@@ -160,61 +144,53 @@
         </html>
     </xsl:template>
 
-    <xsl:template match="eventLocation">
 
-        <xsl:variable name="hyperlink">
-            <xsl:apply-templates/>
-        </xsl:variable>
-
-        <a target="_blank" href="https://www.google.com/search?q={$hyperlink}">
-            <xsl:apply-templates/>
-        </a>
-
-    </xsl:template>
-
-
-    <xsl:template match="ufoDesc">
-
+    <xsl:template match="//eventDate" mode="toc">
         <li>
-            <span class="ufoDesc">
-                <xsl:apply-templates/>
-            </span>
+            <strong>
+                <xsl:value-of select="@date"/>           
+            </strong>
         </li>
 
     </xsl:template>
-
-
-    <xsl:template match="weather">
-
-        <li>
-            <span class="weather">
-                <xsl:apply-templates/>
-            </span>
-        </li>
-
+    
+    <xsl:template match="//eventDate">
+        <span style="color:purple; font-weight: bold;">
+            <xsl:value-of select="@date"/>           
+       </span>
+        
+    </xsl:template>
+    
+    <xsl:template match="//ufoDesc">
+        <span style="color:blue; font-weight: bold;">
+            <xsl:apply-templates/>        
+        </span>
+        
     </xsl:template>
 
-    <xsl:template match="event">
+    <xsl:template match="//report">
 
-        <li>
-            <span class="event">
-                <xsl:apply-templates/>
-            </span>
-        </li>
+        <p>
+            <xsl:apply-templates select="//head"/>
+        </p>
+
+        <p>
+            <xsl:apply-templates select="//address"/>
+        </p>
+
+
+        <p>
+            <xsl:apply-templates select="//body"/>
+        </p>
+
+
+        <p>
+            <xsl:apply-templates select="//signature"/>
+        </p>
+
+
 
     </xsl:template>
-
-    <xsl:template match="organization">
-
-        <li>
-            <span class="org">
-                <xsl:apply-templates/>
-            </span>
-        </li>
-        <!--this needs distinct values-->
-
-    </xsl:template>
-
 
 
 
