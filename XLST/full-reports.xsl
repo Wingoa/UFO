@@ -27,7 +27,8 @@
                 <style>
                     table,
                     th,
-                    td {
+                    td,
+                    a{
                         border: 1px solid black;
                         font-family: 'Courier New', Courier, monospace !important;
                         text-align: left !important;
@@ -62,9 +63,9 @@
                         font-family: 'Courier New', Courier, monospace;
                     }
                     ol {
-                        columns: 3;
-                        -webkit-columns: 3;
-                        -moz-columns: 3;
+                    columns: 4 !important;
+                    -webkit-columns: 4 !important;
+                    -moz-columns: 4 !important;
                         text-align: left !important;
                         margin-left: 250px !important;
                    
@@ -81,21 +82,23 @@
                     <ol>
                         <xsl:for-each select="$UFOReports//report">
                             <xsl:sort select="//eventDate/@date!tokenize(.,'/')[3]" order="descending"/>
-                            <a href="#{//@id}">
+                            <a href="#{//@id}"  style="font-size:x-large;">
                                 <xsl:apply-templates select="//eventDate" mode="toc"/>
                             </a>
                         </xsl:for-each>
                     </ol>
+                       
                             <hr/>
                    </div>
                     
 
                     <xsl:for-each select="$UFOReports//report">
                         <xsl:sort select="//eventName"/>
+                      
                         <div class="row justify-content-center">
                             <div class="col">
-                                <table id="{//@id}">
-
+                                <table>
+                             
                                     <tr style="background-color: #acdbff;">
                                         <th>
                                             <h3>
@@ -114,7 +117,7 @@
                                         </th>
                                         <td>
                                             <h4 style="font-weight: normal;">
-                                                <a  href="Reports_PDF/{//@id}.pdf" target="_blank"><xsl:apply-templates select="//report//@id"/></a> 
+                                                <a  href="..//Reports_PDF/{//@id}.pdf" target="_blank"><xsl:apply-templates select="//report//@id"/></a> 
                                             </h4>
                                         </td>
                                     </tr>
