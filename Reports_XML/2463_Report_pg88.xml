@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<report id="2463_Report_pg88">
+    <head> Air CmdSecCS-RAFBusSec13 From: [] Sent: 03 September 2009 17:40 To: Air CmdSecCS-UFO
+        Desk1 Subject: UFO Filey Attachments: DSC00052.jpg; DSC00053.jpg; DSC00055.jpg</head>
+    <body> I attach photographs of a <ufoDesc>flying object</ufoDesc> I encountered over <eventLocation eloc="Filey_Town_Center">Filey town centre</eventLocation> at <weather>00:46</weather>
+        yesterday (<eventDate date="09/02/2009">2nd September</eventDate>.) <event>I was completely transfixed by it and watched it for a few
+        minutes before I panicked and hurried back to my parents flat</event>. The best way I can describe
+        its appearance is <ufoDesc>a brilliant and dazzling pure white horizontal ring of light</ufoDesc>. It appeared
+        to be <ufoDesc>perfectly still in the sky above the houses and was totally silent</ufoDesc>. I took these
+        pictures from the corner of Chapel Street and Station Avenue and I would estimate that it
+        was hovering above the <eventName>Belle Vue Crescent area</eventName>. I noticed that <organization org="RAF">RAF</organization> jets were doing fly over
+        the town the following morning.... surely this is not a coincidence? <event>All I can say is that
+        it was the strangest experience of my life and thought I should report it to someone</event>.</body>
+
+    <signature>Regards []</signature>
+
+
+</report>
