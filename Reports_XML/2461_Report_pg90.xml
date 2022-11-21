@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<report id="2461_Report_pg90">
+
+    <head>Sent: 23 May 2009 23:56 To: Low Flying Subject: <eventName>Low Flying
+            Complaints</eventName> This request has been received via www.mod.uk. txttowncity:
+        winsford txtstatecountry: cheshire txtzipcodepostcode:[] txttelephonc:[] txicountry: UK
+        txtemailÁddress: [] txtincident: 23.00 hrs <eventDate date="05/23/2009">23/05/09</eventDate>
+        txtrequest:</head>
+    <body><eventLocation eloc="Winsford_Cheshire">In Winsford Cheshire</eventLocation> at
+            <weather>approx 23:00 hrs</weather> we noticed <ufoDesc>an orange light which travelled
+            over our house</ufoDesc> from the south. <event>This was not the normal flight
+            path</event> we see for aircraft going into Manchester airport. <ufoDesc>It was then
+            followed by 2 more orange lights on the same path</ufoDesc>. This made me go outside to
+        see yet there was <ufoDesc>no noise for a craft which was only at an altitude of a helicopter</ufoDesc>. <event>A few
+        seconds later 5 more objects appeared then another 2</event>. <event>I took pictures of the objects passing
+        over</event> but <ufoDesc>there was no noise and they then eventually gained height and all disappeared</ufoDesc>
+        north. Do you have any details of activity in our area which would explain this
+        sighting.</body>
+    <signature>Kindregards, []</signature>
+
+
+</report>
