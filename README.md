@@ -1,4 +1,4 @@
-# UFO
+# UFO :bowtie:
 UFO project for Digital Humanities
 
 Lara V. - Web design/UX maven & Quality control officer
