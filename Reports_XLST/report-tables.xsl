@@ -15,7 +15,7 @@
     <xsl:template match="/">
         <html>
             <head>
-                <title>UFO Report Tables</title>
+                <title>UFO Report Highlights</title>
                 <link type="text/css" href="../style.css" rel="stylesheet"/>
                 <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"/>
                 <script>
@@ -59,12 +59,45 @@
                     }
                     h1 {
                         font-family: 'Courier New', Courier, monospace;
+                    }
+                    ol {
+                    columns: 4 !important;
+                    -webkit-columns: 4 !important;
+                    -moz-columns: 4 !important;
+                    text-align: left !important;
+                    
+                    }
+                    .center
+                    {
+                    text-align: center !important;
+                    
+                    }
+                    o1.center li
+                    {
+                    text-align: left; 
+                    margin-left: 45%;
                     }</style>
             </head>
             <div id="header"/>
             <div class="container">
                 <body>
-                    <h1>UFO Report List</h1>
+                    <h1>UFO Report Highlights</h1>
+                    <h2>Table of Contents</h2>
+                    <div class="row">
+                        <ol class="center">
+                            <xsl:for-each select="$UFOReports//report">
+                                
+                                <xsl:sort select="//eventDate/@date!tokenize(.,'/')[3]" order="descending"/>
+                                <li>
+                                    <a href="#{//@id}"  style="font-size:x-large;">
+                                        <xsl:apply-templates select="//eventDate" mode="toc"/>
+                                    </a>
+                                </li>
+                            </xsl:for-each>
+                        </ol>
+                        
+                        <hr/>
+                    </div>
 
                     <xsl:for-each select="$UFOReports//report">
                         <xsl:sort select="//eventName"/>
@@ -79,8 +112,8 @@
                                                 <xsl:value-of select="$counter"/>. Event Name:</h3>
                                         </th>
                                         <th>
-                                            <h3>
-                                                <xsl:apply-templates select="//eventName"/>
+                                            <h3 id="{//@id}">
+                                                <xsl:apply-templates select="//eventName"/> 
                                             </h3>
                                         </th>
                                     </tr>
@@ -151,13 +184,16 @@
                         </div>
 
                     </xsl:for-each>
-
-
                 </body>
-
             </div>
             <div id="footer"/>
         </html>
+    </xsl:template>
+    
+    <xsl:template match="//eventDate" mode="toc"> 
+        <strong>
+            <xsl:value-of select="@date"/>           
+        </strong>
     </xsl:template>
 
     <xsl:template match="eventLocation">

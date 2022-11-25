@@ -27,8 +27,8 @@
                 <style>
                     table,
                     th,
-                    td,
-                    a{
+                    td
+                    {
                         border: 1px solid black;
                         font-family: 'Courier New', Courier, monospace !important;
                         text-align: left !important;
@@ -66,25 +66,36 @@
                     columns: 4 !important;
                     -webkit-columns: 4 !important;
                     -moz-columns: 4 !important;
-                        text-align: left !important;
-                        margin-left: 250px !important;
-                   
-         
+                    text-align: left !important;
+                       
+                    }
+                    .center
+                    {
+                    text-align: center !important;
+                    
+                    }
+                    o1.center li
+                    {
+                    text-align: left; 
+                    margin-left: 45%;
                     }
                 </style>
             </head>
             <div id="header"/>
             <div class="container">
                 <body>
-                    <h1>UFO Report List</h1>
+                    <h1>Full UFO Reports</h1>
                     <h2>Table of Contents</h2>
                    <div class="row">
-                    <ol>
+                    <ol class="center">
                         <xsl:for-each select="$UFOReports//report">
+                       
                             <xsl:sort select="//eventDate/@date!tokenize(.,'/')[3]" order="descending"/>
+                            <li>
                             <a href="#{//@id}"  style="font-size:x-large;">
                                 <xsl:apply-templates select="//eventDate" mode="toc"/>
                             </a>
+                            </li>
                         </xsl:for-each>
                     </ol>
                        
@@ -95,7 +106,7 @@
                     <xsl:for-each select="$UFOReports//report">
                         <xsl:sort select="//eventName"/>
                       
-                        <div class="row justify-content-center">
+                        <div class="row justify-content-center" id="{//@id}">
                             <div class="col">
                                 <table>
                              
@@ -117,7 +128,7 @@
                                         </th>
                                         <td>
                                             <h4 style="font-weight: normal;">
-                                                <a  href="..//Reports_PDF/{//@id}.pdf" target="_blank"><xsl:apply-templates select="//report//@id"/></a> 
+                                                <a  href="..//..//Reports_PDF/{//@id}.pdf" target="_blank"><xsl:apply-templates select="//report//@id"/></a> 
                                             </h4>
                                         </td>
                                     </tr>
@@ -148,13 +159,10 @@
     </xsl:template>
 
 
-    <xsl:template match="//eventDate" mode="toc">
-        <li>
+    <xsl:template match="//eventDate" mode="toc"> 
             <strong>
                 <xsl:value-of select="@date"/>           
             </strong>
-        </li>
-
     </xsl:template>
     
     <xsl:template match="//eventDate">
@@ -166,6 +174,13 @@
     
     <xsl:template match="//ufoDesc">
         <span style="color:blue; font-weight: bold;">
+            <xsl:apply-templates/>        
+        </span>
+        
+    </xsl:template>
+    
+    <xsl:template match="//organization">
+        <span style="color:green; font-weight: bold;">
             <xsl:apply-templates/>        
         </span>
         
