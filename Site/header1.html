@@ -1,0 +1,211 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<link rel="icon" href="assets/alien.png" />
+		<title>Header</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script>
+			function start() {
+				scroll();
+			}
+			window.onload = start;
+			function scroll() {
+				window.onscroll = function () {
+					myFunction();
+				};
+
+				var navbar = document.getElementById("navbar");
+				var sticky = navbar.offsetTop;
+
+				function myFunction() {
+					if (window.pageYOffset >= sticky) {
+						navbar.classList.add("sticky");
+					} else {
+						navbar.classList.remove("sticky");
+					}
+				}
+			}
+		</script>
+		<!--shd: css and javascript files are both included. sticky js makes the navbar stick to the top of the users screen even if they scroll down. there is some css that goes along with it that is in the css file. -->
+	</head>
+	<style>
+		@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700");
+		html,
+		body {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: "Quicksand", sans-serif;
+			font-size: 62.5%;
+			font-size: 20px;
+		}
+		/* shd: header css */
+		.header {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			background-color: #666666;
+		}
+		/* shd: end header css */
+		/* shd: navbar css */
+		.navbar {
+			display: flex;
+			width: 100%;
+			height: 85px;
+			overflow: hidden;
+			background-color: #1ac6ff;
+			flex-direction: row;
+			font-size: xx-large;
+			justify-content: space-around;
+			align-items: center;
+			z-index: 500;
+			background-image: url("assets/stars.png");
+		}
+		.navbar a {
+			float: left;
+			font-size: 22px;
+			text-align: center;
+			color: white;
+			padding: 14px 16px;
+			text-decoration: none;
+			z-index: 501;
+		}
+		/* .nav div.logo {
+			float: left;
+			width: auto;
+			height: auto;
+			padding-left: 3rem;
+		}
+
+		.nav div.logo a {
+			text-decoration: none;
+			color: #fff;
+			font-size: 2.5rem;
+		}
+
+		.nav div.logo:hover {
+			color: #00e676;
+			opacity: 0.75;
+		} */
+		.dropdown {
+			float: left;
+			color: white;
+			overflow: hidden;
+		}
+		.dropdown .dropbtn {
+			font-size: 16px;
+			border: none;
+			outline: none;
+			color: white;
+			padding: 14px 16px;
+			background-color: inherit;
+			font-family: inherit;
+			margin: 0;
+		}
+		.navbar a:hover,
+		.dropdown:hover .dropbtn {
+			background-color: #008fbf;
+			color: white;
+		}
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			background-color: #008fbf;
+			color: white;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+			z-index: 1;
+		}
+		.dropdown-content a {
+			float: none;
+			color: white;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: block;
+			text-align: center;
+		}
+		.dropdown-content a:hover {
+			background-color: black;
+			color: white;
+		}
+		.dropdown:hover .dropdown-content {
+			display: block;
+			color: white;
+		}
+		/* shd: end navbar css */
+
+		/* shd: sticky css */
+		.cfix:after {
+			display: block;
+			clear: both;
+			justify-content: space-around;
+		}
+
+		.sticky {
+			position: fixed;
+			top: 0;
+			width: 100%;
+		}
+
+		.sticky + .content {
+			padding-top: 60px;
+		}
+		/*shd: end sticky css */
+
+		/* shd: body css */
+		html,
+		body {
+			margin: 0;
+			padding: 0;
+		}
+		#content {
+			margin: 2%;
+			margin-top: 7%;
+		}
+		body {
+			background-color: #000000;
+			color: #ffffff;
+			font-family: "Quicksand", sans-serif;
+			font-size: 16px;
+		}
+		#bottom {
+			margin-top: 20%;
+		}
+		h1 {
+			color: #0c0c0c;
+			text-align: center;
+		}
+		span {
+			padding: 0 10px;
+			white-space: normal;
+			word-break: break-word;
+			display: flex;
+			align-items: flex-end;
+		}
+		/* shd: end body css */
+	</style>
+	<body>
+		<div id="navbar">
+			<div class="navbar">
+				<div>
+					<a href="index.html"
+						><img
+							src="assets/alien.png"
+							alt="White Alien Logo"
+							style="height: 70px"
+						/>
+						<a style="margin-top: 30px">UFO Reporter</a>
+					</a>
+				</div>
+
+				<div style="align-items: flex-end">
+					<a href="index.html">Home</a>
+					<a href="map.html">Sighting Map</a>
+					<a href="full-reports.html">Full Reports</a>
+					<a href="report-tables.html">Report Notes</a>
+					<a href="about.html">About Us</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

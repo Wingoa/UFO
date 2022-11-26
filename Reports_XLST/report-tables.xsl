@@ -66,6 +66,7 @@
                     -webkit-columns: 4 !important;
                     -moz-columns: 4 !important;
                     text-align: left !important;
+                     word-wrap: break-word;
                     
                     }
                     .centered
@@ -73,10 +74,10 @@
                     text-align: center !important;
                     
                     }
-                    o1.centered li
+                    ol.centered li
                     {
                     text-align: left; 
-                    margin-left: 45%;
+                    margin-left: 10px;
                     }
                     /*Floating Back-To-Top Button*/
                     #myBtn {
@@ -89,7 +90,6 @@
                     width: 100%;
                     font-size: 12px;
                     border-color: black;
-                    font-color: #acdbff;
                     background-color: rgb(64,64,64);
                     padding: .5px;
                     border-radius: 4px;
@@ -109,6 +109,7 @@
                     <h2>Table of Contents</h2>
                     
                     <div class="row">
+                        <div class="col">
                         <ol class="centered">
                             <xsl:for-each select="$UFOReports//report">
                                 
@@ -123,9 +124,10 @@
                         
                         <hr/>
                     </div>
+                    </div>
 
                     <xsl:for-each select="$UFOReports//report">
-                        <xsl:sort select="//eventName"/>
+                        <xsl:sort select="//eventDate/@date!tokenize(.,'/')[3]" order="descending"/>
                         <div class="row justify-content-center" id="{//@id}">
                             <div class="col">
                             </div>

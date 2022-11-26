@@ -16,7 +16,7 @@
         <html>
             <head>
                 <title>Full UFO Reports</title>
-                <link type="text/css" href="../style.css" rel="stylesheet"/>
+                <link type="text/css" href="style.css" rel="stylesheet"/>
                 <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"/>
                 <script>
                     $(function () {
@@ -67,6 +67,7 @@
                     -webkit-columns: 4 !important;
                     -moz-columns: 4 !important;
                     text-align: left !important;
+                     
                        
                     }
                     .centered
@@ -74,10 +75,12 @@
                     text-align: center !important;
                     
                     }
-                    o1.centered li
+                    ol.centered li
                     {
                     text-align: left; 
-                    margin-left: 25%;
+                    margin-left: 10px;
+                  
+                    
                     }
                     /*Floating Back-To-Top Button*/
                     #myBtn {
@@ -90,7 +93,6 @@
                     width: 100%;
                     font-size: 12px;
                     border-color: black;
-                    font-color: #acdbff;
                     background-color: rgb(64,64,64);
                     padding: .5px;
                     border-radius: 4px;
@@ -108,6 +110,7 @@
                     <h1>Full UFO Reports</h1>
                     <h2>Table of Contents</h2>
                    <div class="row">
+                       <div class="col">
                     <ol class="centered">
                         <xsl:for-each select="$UFOReports//report">
                        
@@ -122,10 +125,11 @@
                        
                             <hr/>
                    </div>
+                   </div>
                     
 
                     <xsl:for-each select="$UFOReports//report">
-                        <xsl:sort select="//eventName"/>
+                        <xsl:sort select="//eventDate/@date!tokenize(.,'/')[3]" order="descending"/>
                         <div class="row justify-content-center" id="{//@id}">
                             <div class="col">
                             </div>
