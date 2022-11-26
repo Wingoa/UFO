@@ -69,15 +69,36 @@
                     text-align: left !important;
                        
                     }
-                    .center
+                    .centered
                     {
                     text-align: center !important;
                     
                     }
-                    o1.center li
+                    o1.centered li
                     {
                     text-align: left; 
-                    margin-left: 45%;
+                    margin-left: 25%;
+                    }
+                    /*Floating Back-To-Top Button*/
+                    #myBtn {
+                    position: fixed;
+                    bottom: 50px;
+                    float: right;
+                    right: 18.5%;
+                    left: 77.25%;
+                    max-width: 80px;
+                    width: 100%;
+                    font-size: 12px;
+                    border-color: black;
+                    font-color: #acdbff;
+                    background-color: rgb(64,64,64);
+                    padding: .5px;
+                    border-radius: 4px;
+                    text-decoration:none;                    
+                    }
+                    /*On Hover Color Change*/
+                    #myBtn:hover {
+                    background-color: #7dbbf1;
                     }
                 </style>
             </head>
@@ -87,7 +108,7 @@
                     <h1>Full UFO Reports</h1>
                     <h2>Table of Contents</h2>
                    <div class="row">
-                    <ol class="center">
+                    <ol class="centered">
                         <xsl:for-each select="$UFOReports//report">
                        
                             <xsl:sort select="//eventDate/@date!tokenize(.,'/')[3]" order="descending"/>
@@ -105,8 +126,11 @@
 
                     <xsl:for-each select="$UFOReports//report">
                         <xsl:sort select="//eventName"/>
-                      
                         <div class="row justify-content-center" id="{//@id}">
+                            <div class="col">
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
                             <div class="col">
                                 <table>
                              
@@ -149,7 +173,7 @@
                         </div>
 
                     </xsl:for-each>
-
+                    <button id="myBtn"><a href="#top" style="color: white">Back to Top</a></button>
 
                 </body>
 

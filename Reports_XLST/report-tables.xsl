@@ -16,13 +16,14 @@
         <html>
             <head>
                 <title>UFO Report Highlights</title>
-                <link type="text/css" href="../style.css" rel="stylesheet"/>
+                <link type="text/css" href="https://style.css" rel="stylesheet"/>
                 <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"/>
                 <script>
                     $(function () {
                     $("#header").load("header.html");
                     $("#footer").load("footer.html");
                     });
+                 
                 </script>
                 <style>
                     table,
@@ -67,24 +68,48 @@
                     text-align: left !important;
                     
                     }
-                    .center
+                    .centered
                     {
                     text-align: center !important;
                     
                     }
-                    o1.center li
+                    o1.centered li
                     {
                     text-align: left; 
                     margin-left: 45%;
-                    }</style>
+                    }
+                    /*Floating Back-To-Top Button*/
+                    #myBtn {
+                    position: fixed;
+                    bottom: 50px;
+                    float: right;
+                    right: 18.5%;
+                    left: 77.25%;
+                    max-width: 80px;
+                    width: 100%;
+                    font-size: 12px;
+                    border-color: black;
+                    font-color: #acdbff;
+                    background-color: rgb(64,64,64);
+                    padding: .5px;
+                    border-radius: 4px;
+                    text-decoration:none;
+                    }
+                    /*On Hover Color Change*/
+                    #myBtn:hover {
+                    background-color: #7dbbf1;
+                    }
+                    
+                </style>
             </head>
             <div id="header"/>
             <div class="container">
                 <body>
                     <h1>UFO Report Highlights</h1>
                     <h2>Table of Contents</h2>
+                    
                     <div class="row">
-                        <ol class="center">
+                        <ol class="centered">
                             <xsl:for-each select="$UFOReports//report">
                                 
                                 <xsl:sort select="//eventDate/@date!tokenize(.,'/')[3]" order="descending"/>
@@ -101,6 +126,10 @@
 
                     <xsl:for-each select="$UFOReports//report">
                         <xsl:sort select="//eventName"/>
+                        <div class="row justify-content-center" id="{//@id}">
+                            <div class="col">
+                            </div>
+                        </div>
                         <div class="row justify-content-center">
                             <div class="col">
                                 <table>
@@ -112,7 +141,7 @@
                                                 <xsl:value-of select="$counter"/>. Event Name:</h3>
                                         </th>
                                         <th>
-                                            <h3 id="{//@id}">
+                                            <h3>
                                                 <xsl:apply-templates select="//eventName"/> 
                                             </h3>
                                         </th>
@@ -123,8 +152,8 @@
                                         </th>
                                         <td>
                                             <h4 style="font-weight: normal;">
-                                                <xsl:apply-templates select="//report//@id"/>
-                                            </h4>
+                                                <a  href="..//..//Reports_PDF/{//@id}.pdf" target="_blank"><xsl:apply-templates select="//report//@id"/></a> 
+                                           </h4>
                                         </td>
                                     </tr>
                                     <tr>
@@ -184,6 +213,8 @@
                         </div>
 
                     </xsl:for-each>
+                    <button id="myBtn"><a href="#top" style="color: white">Back to Top</a></button>
+                    
                 </body>
             </div>
             <div id="footer"/>
