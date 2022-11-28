@@ -2,7 +2,7 @@
 
 <?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 
-<report id="2452_pg71">
+<report id="2452_Report_pg71">
 
 
     <head><eventName>UFO in Samaria Sky</eventName></head>

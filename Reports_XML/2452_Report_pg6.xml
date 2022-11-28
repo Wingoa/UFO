@@ -2,10 +2,10 @@
 
 <?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 
-<report id="2452_pg6">
+<report id="2452_Report_pg6">
 
-    <head>From: [] Sent: <eventDate date="11/01/2009">01 November 2009</eventDate> 01:37 To: Air CmdSecCS-UFO Desk1 Subject: <eventName>large
-            sighting</eventName>
+    <head>From: [] Sent: <eventDate date="11/01/2009">01 November 2009</eventDate> 01:37 To: Air
+        CmdSecCS-UFO Desk1 Subject: <eventName>large sighting</eventName>
     </head>
 
     <address>Dear Sir</address>
@@ -14,8 +14,8 @@
         would like to check if you had military craft on exercise in the area to this number. At
         12:31 this evening, approx half an hour ago I saw <ufoDesc>6 lights almost in an S
             shape</ufoDesc>
-        <event>slowly moving across the sky</event>. I was on the road FROM <location
-            loc="Humberston">Humberston</location> (suburb of Cleethorpes) to Tetnoy, North East
+        <event>slowly moving across the sky</event>. I was on the road FROM <eventLocation
+            eloc="Humberston">Humberston</eventLocation> (suburb of Cleethorpes) to Tetnoy, North East
         Lines. I was on the straight just before Tetnoy villaqe when I saw through my cars front
         window these 6 lights. I’ve never seen anything like them, it just looked very odd. I pulled
         over and got out to look further. <event>They were moving in formation from West to north

@@ -2,42 +2,53 @@
 
 <?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 
-<report id="2460_pg79"> <body>Anyway, with reference to what I saw on my trip to <eventName>Gatwick on Monday</eventName> <eventDate date="09/01/2008">1st
-    September 2008</eventDate>, here is my account of what took place. <event>I was en route to collect my neighbour's
-    wife and children from her return trip from Toronto</event>. Her time of arrival was <weather>11am</weather>, I was advised
-    by my neighbour that I should plan to be there about 11.30am, although I wanted to be a little
-    earlier on arrival for parking and a coffee, but found myself running late after getting to
-    grips with a new Satellite Navigation system and moments of slow motorway traffic. At about
-    11.05am I was still travelling south, somewhere from the M25 to the M23. I would have to provide
-    a 'guesstimate' of my rough location after tracing my route and being some 20-25 mlnutes away
-    from <eventLocation eloc="Gatwick">Gatwick Airport</eventLocation> Itself and on the M23 southbound. Because I was working with a brand new
-    Sat Nav system I could not immediately Identify my spot location from the map vlew (I had a
-    Navman which was in a planned route mode and gave a limited vlew of where I was). But I think I
-    was on the M23 not too far from the M25 junction. <weather>It was raining to some degree</weather>, I had my
-    windscreen wipers operated and car windscreen was clean and without mist with car air-con
-    functional (I drive a Volvo V70). I was in the central lane paying attention to driving hazards
-    and traffic progression (this being skills learnt from the Institute Advanced Motorists
-    standards and police driving standards), basically scanning from horizon to car bonnet and back
-    to horizon taking into account all traffic and it's local environment. times I would glance in
-    to the sky to try to get vlew of flights in bound to Gatwick and an idea of my closeness to
-    destination. It was at this point soon after I saw <ufoDesc>a flash and bright light in the sky</ufoDesc> and
-    Immediately associated it with a plane or helicopter (where I live in Waltham Abbey gives a
-    regular view of commercial type flights and helicopter flights as a Met police helicopter
-    landing site is near my house about 1 mile. I walted to identify either a jet plane or
-    helicopter. <ufoDesc>The bright light stopped</ufoDesc> and (I expected to see the plane or helicopter) allowed a
-    side profile to be viewed as <ufoDesc>the air-borne vehicle travelled from left to right</ufoDesc>. At all times I
-    continued to have casual peripheral vision on the motorway traffic which was continuous and
-    regular. I continued to watch the sky not thinking anything unusual and then this <ufoDesc>oval shaped
-    object</ufoDesc> (I now realise it could only match a helicopter in <ufoDesc>it's side profile was missing it's
-    rear tail</ufoDesc>), <ufoDesc>accelerated at a colossal speed, faster than any aircraft I have or been aware of</ufoDesc>
-    accelerating before and base this on attending airshows a s a child and even seelng jet fighters
-    fly over my junlor school when a child in Loughton, Essex on the 1970's which included the sound
-    boom. <ufoDesc>This unusual oval shaped Ariel vehicle, after accelerating, just vanished out of view.</ufoDesc> <ufoDesc>it
-    was quite small in size</ufoDesc> and appeared to be below cloud cover, but I cannot say categorically.
-    Until It disappeared it was constant and visible and perhaps 1mile away, but this is hard to
-    say. Overall, <event>this incident lasted for about 5- 10 seconds</event>. Once it had disappeared, I had
-    limited time to re-assess it's location as my road position changed and meant I had to look to my
-    right and through my driver's door window. I have not reported this to <organization org="MOD">MOD</organization>, for a limited
-    information feedback reason, I have been aware of such matters in the past as I have pald casual
-    attention to this interest since the mid 1990's (during my time in the <organization org="MET">Met Police</organization>) and relevant
-    book releases and programmes.</body> <signature>I would be happy to discuss this further if necessary. Regards, </signature></report>
+<report id="2460_Report_pg79">
+    <body>Anyway, with reference to what I saw on my trip to <eventName>Gatwick on
+            Monday</eventName>
+        <eventDate date="09/01/2008">1st September 2008</eventDate>, here is my account of what took
+        place. <event>I was en route to collect my neighbour's wife and children from her return
+            trip from Toronto</event>. Her time of arrival was <weather>11am</weather>, I was
+        advised by my neighbour that I should plan to be there about 11.30am, although I wanted to
+        be a little earlier on arrival for parking and a coffee, but found myself running late after
+        getting to grips with a new Satellite Navigation system and moments of slow motorway
+        traffic. At about 11.05am I was still travelling south, somewhere from the M25 to the M23. I
+        would have to provide a 'guesstimate' of my rough location after tracing my route and being
+        some 20-25 mlnutes away from <eventLocation eloc="Gatwick">Gatwick Airport</eventLocation>
+        Itself and on the M23 southbound. Because I was working with a brand new Sat Nav system I
+        could not immediately Identify my spot location from the map vlew (I had a Navman which was
+        in a planned route mode and gave a limited vlew of where I was). But I think I was on the
+        M23 not too far from the M25 junction. <weather>It was raining to some degree</weather>, I
+        had my windscreen wipers operated and car windscreen was clean and without mist with car
+        air-con functional (I drive a Volvo V70). I was in the central lane paying attention to
+        driving hazards and traffic progression (this being skills learnt from the Institute
+        Advanced Motorists standards and police driving standards), basically scanning from horizon
+        to car bonnet and back to horizon taking into account all traffic and it's local
+        environment. times I would glance in to the sky to try to get vlew of flights in bound to
+        Gatwick and an idea of my closeness to destination. It was at this point soon after I saw
+            <ufoDesc>a flash and bright light in the sky</ufoDesc> and Immediately associated it
+        with a plane or helicopter (where I live in Waltham Abbey gives a regular view of commercial
+        type flights and helicopter flights as a Met police helicopter landing site is near my house
+        about 1 mile. I walted to identify either a jet plane or helicopter. <ufoDesc>The bright
+            light stopped</ufoDesc> and (I expected to see the plane or helicopter) allowed a side
+        profile to be viewed as <ufoDesc>the air-borne vehicle travelled from left to
+            right</ufoDesc>. At all times I continued to have casual peripheral vision on the
+        motorway traffic which was continuous and regular. I continued to watch the sky not thinking
+        anything unusual and then this <ufoDesc>oval shaped object</ufoDesc> (I now realise it could
+        only match a helicopter in <ufoDesc>it's side profile was missing it's rear tail</ufoDesc>),
+            <ufoDesc>accelerated at a colossal speed, faster than any aircraft I have or been aware
+            of</ufoDesc> accelerating before and base this on attending airshows a s a child and
+        even seelng jet fighters fly over my junlor school when a child in Loughton, Essex on the
+        1970's which included the sound boom. <ufoDesc>This unusual oval shaped Ariel vehicle, after
+            accelerating, just vanished out of view.</ufoDesc>
+        <ufoDesc>it was quite small in size</ufoDesc> and appeared to be below cloud cover, but I
+        cannot say categorically. Until It disappeared it was constant and visible and perhaps 1mile
+        away, but this is hard to say. Overall, <event>this incident lasted for about 5- 10
+            seconds</event>. Once it had disappeared, I had limited time to re-assess it's location
+        as my road position changed and meant I had to look to my right and through my driver's door
+        window. I have not reported this to <organization org="MOD">MOD</organization>, for a
+        limited information feedback reason, I have been aware of such matters in the past as I have
+        pald casual attention to this interest since the mid 1990's (during my time in the
+            <organization org="MET">Met Police</organization>) and relevant book releases and
+        programmes.</body>
+    <signature>I would be happy to discuss this further if necessary. Regards, </signature>
+</report>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>UFO Reporter</title>
+		<link type="text/css" href="style.css" rel="stylesheet" />
+		<script
+			src="https://code.jquery.com/jquery-3.3.1.js"
+			integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+			crossorigin="anonymous"
+		></script>
+		<script>
+			$(function () {
+				$("#header").load("header.html");
+				$("#footer").load("footer.html");
+			});
+		</script>
+		<style>
+			img {
+				width: 100%;
+				height: auto;
+				/* Magic! */
+				max-width: 70vw;
+			}
+		</style>
+	</head>
+
+	<body
+		style="
+			text-align: center;
+			font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times,
+				'Times New Roman', serif;
+			font-style: normal;
+			color: #000000;
+			font-weight: 200;
+		"
+	>
+		<div id="header"></div>
+		<div class="container">
+			<div class="row justify-content-center" style="margin-bottom: 10px">
+				<div class="col">
+					<img src="assets/UFOTITLE.png" alt="UFO Title" />
+				</div>
+			</div>
+			<div class="row">
+				<p
+					style="
+						font-family: 'Courier New', Courier, monospace;
+						font-size: 22px;
+						font-weight: bold;
+						width: 80%;
+					"
+				>
+					Newly released UFO files from the UK government:
+				</p>
+				<br />
+				<p
+					style="
+						font-family: 'Courier New', Courier, monospace;
+						font-size: 15px;
+						width: 70%;
+					"
+				>
+					The final tranche of UFO files released by The National Archives
+					contain a wide range of UFO-related documents, drawings, letters, and
+					photos and parliamentary questions covering the final two years of the
+					Ministry of Defence's UFO Desk (from late 2007 until November 2009).
+					Discover the reasons behind the closure of the UFO desk, the handling
+					of the largest number of UFO sighting reports received in 30 years and
+					the disclosure campaign for ‘the truth’, which was sparked by the
+					closure of the UFO Desk.<br />&nbsp; This site explores and highlights
+					these files in depth. Oringal documents are included with each report
+					listed in each sections.
+				</p>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col center">
+					<img
+						style="
+							box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+							border: 2px solid black;
+						"
+						src="assets/UFO1.jpg"
+						alt="UFO 1"
+					/>
+				</div>
+			</div>
+			<div class="row">
+				<div class="row justify-content-center">
+					<div class="col">
+						<iframe
+							src="https://www.freeonlinegames.com/games/143557/game.html?1501149201"
+							scrolling="no"
+							width="500"
+							height="730"
+							frameborder="no"
+							style="box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8)"
+						></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer"></div>
+	</body>
+</html>

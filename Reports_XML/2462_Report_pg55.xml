@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<report id="2462_Report_pg55">
+    <head>Air CmdSecCS-RAFBusSec13 [] From: [] Sent: 02 August 2009 10:45 To: Air CidSecCS-UFO Deskt
+        Subject: sighting</head>
+    <address>I am e-mailing after finding your address on the internet.</address>
+    <body>Last <weather>night</weather> at <weather>around 10.30pm</weather> my husband and I
+        watched in the sky <ufoDesc>9 bright orange circular shapes glide across the night sky</ufoDesc>. <event>They seemed
+        to be travelling at a speed similar to that of an aircraft</event>. At first I thought it was an
+        <eventName>aeroplane with a different colour</eventName>ed light ( we live on a flight path for <organization org="ManAir">Manchester
+        Airport</organization>), but then one after the other more and <event>more lights came into view</event>. Then I thought
+        it was fireworks, but they don't last that long, and <ufoDesc>don't move like these lights did</ufoDesc>. <event>It
+        lasted for a couple of mins</event>. I went outside and saw a neighbour who was out walking her dog,
+        and she was as stunned as I was. Have there been any more reports made? <eventDate date="08/01/2009">Sat 1st Aug 2009</eventDate>.
+        <eventLocation eloc="High_Peak_Derbyshire">New Mills in the High Peak Derbyshire</eventLocation>.</body>
+    <signature> Thank You [] Tel: [] </signature>
+</report>

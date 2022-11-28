@@ -2,75 +2,53 @@
 
 <?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 
-<report id="2451_pg90">
-    
-    <head>
-        The Officer Responsible,
-        The UFO. Desk,
-        Royal Air Force Section
+<report id="2451_Report_pg90">
+
+    <head> The Officer Responsible, The UFO. Desk, <organization org="RAF">Royal Air Force
+            Section</organization>
         <organization org="MoD">The Ministry of Defence,</organization>
-        <location loc="London">London, England, UK.</location>    
+        <location loc="London">London, England, UK.</location>
     </head>
-    
+
     <address>Dear Sir,</address>
-    
+
     <body>
-        
-        <eventName>Sighting of same UFO type on two continents</eventName>.
-        
-       I want to impress you first with my qualifications for knowing 
-       what I saw and secondly for being able to identify that what 
-       I saw was not a normal aerial object.
-       
-       For some twenty five years I was in the <organization org="British_Army">Army of Great Britain</organization>
-       and <organization org="Australian_Army">Australia</organization> as a National Serviceman and then as a Territorial
-       Army and Citizens' Military Force Volunteer. My final rank was 
-       Captain. In the <organization org="British_Army">British Army</organization>, my number was [] and my main 
-       occupation waws Forward Observer in Field Artillery but I also 
-       served in a light Anti-aircraft Regiment of the Royal Artillery
-       where you served by identification of enemy aircraft in time
-       to take proper action. For more than twenty-five years I studied
-       aircraft recognition as a civilian amateur and as a military
-       professional.
-       
-       From the foregoing I hope that you may realise that I have
-       been trained, have experience and are able to dentify objects,
-       their shape and dimensions at a distance. It may be considered
-       that if I say that I saw something and describe it in detail
-       I did see it and that it did exist at two separate times in
-       separate places on two continents.
-       
-       Early in <year>2007</year>, I cannot give you the exact date because that
-       did not become important until my second sighting, one morning
-       I was in my front garden in <location loc="Hawthorn">Hawthorn</location>, an inner suburb of
-       <location loc="Melbourne">Melbourne, Australia</location>. I heard a large jet aeroplane approaching
-       from the east at low level and recognised the sound of a Boeing
-       747. I got hold of my binoculars, which I keep handy for such
-       occasions, captured the image and followed the plane as it passed
-       slowly from east to west across my front. It was to my north 
-       about 1,000 metres from me at as low a level as such planes
-       are permitted to fly across the inner areas of <location loc="Melbourne">Melbourne</location>, on
-       a line of sight about fifteen degrees of elevation from me,
-       in its sweeping approach to Tullamarine airport gone fifteen
-       kilometres away. The sky was <weather>clear cloudless blue</weather>. 
-       
-       As I scanned back along the fuselage to the white kangaroo
-       on the red tail of the Qadtas jumbo I saw behind and beyond
-       the tail by at least 500 metres an <ufoDesc>object in the sky</ufoDesc>. I recall
-       thinking I'll follow the 747 until it goes behind the nearby
-       houses and then come back to the object. It was an <ufoDesc>unusual shape</ufoDesc>.
-       
-       The other day I heard a news broadcast which mentioned the 
-       UFO desk at <organization org="MoD">MOD</organization> in <location loc="London">London</location> and as a result I have directed my report to you.
-       
-       If you require any other information, please let me know,
-       otherwise, I do not expect you to expend your valuable time on 
-       a reply. 
-       
-    </body>
-        
-        <signature>Yours faithfully,
-           []</signature>
-       
-    
+        <eventName>Sighting of same UFO type on two continents</eventName>. I want to impress you
+        first with my qualifications for knowing what I saw and secondly for being able to identify
+        that what I saw was not a normal aerial object. For some twenty five years I was in the
+            <organization org="British_Army">Army of Great Britain</organization> and <organization
+            org="Australian_Army">Australia</organization> as a National Serviceman and then as a
+        Territorial Army and Citizens' Military Force Volunteer. My final rank was Captain. In the
+            <organization org="British_Army">British Army</organization>, my number was [] and my
+        main occupation waws Forward Observer in Field Artillery but <event>I also served in a light
+            Anti-aircraft Regiment of the Royal Artillery where you served by identification of
+            enemy aircraft in time to take proper action</event>. <event>For more than twenty-five
+            years I studied aircraft recognition as a civilian amateur and as a military
+            professional.</event> From the foregoing I hope that you may realise that I have been
+        trained, have experience and are able to dentify objects, their shape and dimensions at a
+        distance. It may be considered that if I say that I saw something and describe it in detail
+        I did see it and that it did exist at two separate times in separate places on two
+        continents. Early in <eventDate date="??/??/2007">2007</eventDate>, I cannot give you the
+        exact date because that did not become important until my second sighting, one morning I was
+        in my front garden in <location loc="Hawthorn">Hawthorn</location>, an inner suburb of
+            <eventLocation eloc="Melbourne_Australia">Melbourne, Australia</eventLocation>. I heard
+        a large jet aeroplane approaching from the east at low level and recognised the sound of a
+        Boeing 747. I got hold of my binoculars, which I keep handy for such occasions, captured the
+        image and followed the plane as it passed slowly from east to west across my front. It was
+        to my north about 1,000 metres from me at as low a level as such planes are permitted to fly
+        across the inner areas of <location loc="Melbourne">Melbourne</location>, on a line of sight
+        about fifteen degrees of elevation from me, in its sweeping approach to Tullamarine airport
+        gone fifteen kilometres away. The sky was <weather>clear cloudless blue</weather>. As I
+        scanned back along the fuselage to the white kangaroo on the red tail of the Qadtas jumbo I
+        saw behind and beyond the tail by at least 500 metres an <ufoDesc>object in the
+            sky</ufoDesc>. I recall thinking I'll follow the 747 until it goes behind the nearby
+        houses and then come back to the object. It was an <ufoDesc>unusual shape</ufoDesc>. The
+        other day I heard a news broadcast which mentioned the UFO desk at <organization org="MoD"
+            >MOD</organization> in <location loc="London">London</location> and as a result I have
+        directed my report to you. If you require any other information, please let me know,
+        otherwise, I do not expect you to expend your valuable time on a reply. </body>
+
+    <signature>Yours faithfully, []</signature>
+
+
 </report>

@@ -2,18 +2,22 @@
 
 <?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 
-<report id="2459_pg42">
-    <head>Sent: <eventDate date="02/15/2009">15 February 2009</eventDate> 10:26 To: Air CmdSecCS-UFO Desk Subject: <eventName>Sighting over
-        Winwick</eventName></head>
-    <body>During the <weather>early hours</weather> of 15 February 2009 at around <weather>00:15hrs</weather> i was with my wife and two
-        friends driving through <eventLocation eloc="Winwick_Warrington">Winwick Warrington</eventLocation>. I was driving and sighted <ufoDesc>two orange lights in
-        the sky</ufoDesc> which was <ufoDesc>hovering over the old hospital</ufoDesc> sight that is now a housing development.
-        <ufoDesc>The lights were not together but were stationary</ufoDesc>. We stopped the car and got out to have a
-        look. As we did we saw other people in nearby houses also stood looking at them. <ufoDesc>There was
-        no noise from them at all</ufoDesc>. <ufoDesc>One then began moving and moved away out of sight</ufoDesc> in a southern
-        direction. <ufoDesc>The second light stayed in placed and then after around 30 seconds also moved
-        away</ufoDesc> in the same direction. Again <ufoDesc>there was no noise</ufoDesc>. <ufoDesc>It was out of sight within around 15
-        seconds</ufoDesc>. There was definitely something strange about it I am not a real believer in ufos
-        but there is no other explanation. </body>
+<report id="2459_Report_pg42">
+    <head>Sent: <eventDate date="02/15/2009">15 February 2009</eventDate> 10:26 To: Air CmdSecCS-UFO
+        Desk Subject: <eventName>Sighting over Winwick</eventName></head>
+    <body>During the <weather>early hours</weather> of 15 February 2009 at around
+            <weather>00:15hrs</weather> i was with my wife and two friends driving through
+            <eventLocation eloc="Winwick_Warrington">Winwick Warrington</eventLocation>. I was
+        driving and sighted <ufoDesc>two orange lights in the sky</ufoDesc> which was
+            <ufoDesc>hovering over the old hospital</ufoDesc> sight that is now a housing
+        development. <ufoDesc>The lights were not together but were stationary</ufoDesc>. <event>We stopped
+        the car and got out to have a look</event>. <event>As we did we saw other people in nearby houses also
+        stood looking at them</event>. <ufoDesc>There was no noise from them at all</ufoDesc>. <ufoDesc>One
+            then began moving and moved away out of sight</ufoDesc> in a southern direction.
+            <ufoDesc>The second light stayed in placed and then after around 30 seconds also moved
+            away</ufoDesc> in the same direction. Again <ufoDesc>there was no noise</ufoDesc>.
+            <ufoDesc>It was out of sight within around 15 seconds</ufoDesc>. <event>There was definitely
+        something strange about it I am not a real believer in ufos but there is no other
+        explanation</event>. </body>
     <signature>I am a serving detective constable.</signature>
 </report>

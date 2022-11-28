@@ -2,7 +2,7 @@
 
 <?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 
-<report id="2460_pg113">
+<report id="2460_Report_pg113">
     <head><eventName>UFO sighting – Derbyshire</eventName></head>
     <address>Hi,</address>
 
@@ -22,13 +22,15 @@
         must think I'm mad). Unfortunately my camera is not great, but I have attached the pictures
         anyway in the hope you can enhance them. On the one marked UFO 001 you can see <ufoDesc>a
             round shape</ufoDesc>, which was not visible to the naked eye and only appeared when I
-        blew up the photo. I believe it may show the <ufoDesc>three lights in a horizontal line</ufoDesc> I described
-        earlier. <event>The whole incident could have only happened over a couple of minutes, maybe less.</event>
-        The lights seemed to fade away, except one which I saw go behind some houses and I followed
-        it a short way down the street on foot before it also disappeared. The incident happened
-        around <weather>9.20pm</weather> today (<eventDate date="04/11/2009">Saturday 11 April. 2009</eventDate>). I live in a village called which is in
-        <eventLocation eloc="Chesterfield_Derbyshire">Chesterfield, Derbyshire</eventLocation>. I would be interested in knowing if anyone else saw what I have
-        described and if any explanation can be given. </body>
+        blew up the photo. I believe it may show the <ufoDesc>three lights in a horizontal
+            line</ufoDesc> I described earlier. <event>The whole incident could have only happened
+            over a couple of minutes, maybe less.</event> The lights seemed to fade away, except one
+        which I saw go behind some houses and I followed it a short way down the street on foot
+        before it also disappeared. The incident happened around <weather>9:20pm</weather> today
+            (<eventDate date="04/11/2009">Saturday 11 April. 2009</eventDate>). I live in a village
+        called which is in <eventLocation eloc="Chesterfield_Derbyshire">Chesterfield,
+            Derbyshire</eventLocation>. I would be interested in knowing if anyone else saw what I
+        have described and if any explanation can be given.</body>
 
     <signature>Thank you</signature>
 

@@ -2,28 +2,33 @@
 
 <?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 
-<report id="2459_pg184">
+<report id="2459_Report_pg184">
     <head>Christmas Day <eventDate date="12/25/2008">25/12/08</eventDate> 8:20pm</head>
     <address>Enquiry:</address>
     <body>I hope that you can help as this isn't a complaint. Like many others my husband and I saw
-        <ufoDesc>strange objects flying</ufoDesc> in the <eventName>south side of glasgow</eventName>. We were driving on <eventLocation eloc="Cathcart_Road_Glasgow">Cathcart Road in
-        Glasgow</eventLocation> (think G44 postcode) heading towards the city centre. To our left were what we
-        counted as <ufoDesc>6 objects, in what to the eye was a static formation</ufoDesc>. <ufoDesc>Two lines of 3 sitting side
-        by side, one line a little higher than the other</ufoDesc>. <ufoDesc>One oject above the other</ufoDesc>. <event>We turned off
-        the main road to park the car and take photographs</event>. <event>They were now in front of us and we were
-        facing west. We have never in our lives seen objects in the sky like this</event>. L<event>uckily we pulled
-        over where other members of the public had pulled over, along with dog walkers who had
-        congregated in amazement</event>. without managing to take a photo the objects seemed to start
-        moving further away, drawing themselves together to make themselves look like one object and
-        <ufoDesc>it/they it disappeared into the distance</ufoDesc> heading towards the west. <ufoDesc>At first quick glance
-        they looked like they could have been helicopters but they definately weren't</ufoDesc>. <ufoDesc>The light
-        that they emitted was very strong and surrounded each object in full</ufoDesc>. <ufoDesc>It was a
-        yellow/orange</ufoDesc>. The whole sight was so extrodinary that after talking about it for hours we
-        began to doubt ourselves. <event>This is why we're so very glad to have met with other members of
-        the public so that our doubts couldn't be varified</event>. We began to reason that the evert would
-        be in the local news as some sort of Christmas hoax but unfortunatelv we've not heard of
-        anything apart from sightings on the 30th <weather>December</weather> about 20 minutes away by car! We would be
-        most very thankful if you could inform us as to what these could have</body>
+            <ufoDesc>strange objects flying</ufoDesc> in the <eventName>south side of
+            glasgow</eventName>. We were driving on <eventLocation eloc="Cathcart_Road_Glasgow"
+            >Cathcart Road in Glasgow</eventLocation> (think G44 postcode) heading towards the city
+        centre. To our left were what we counted as <ufoDesc>6 objects, in what to the eye was a
+            static formation</ufoDesc>. <ufoDesc>Two lines of 3 sitting side by side, one line a
+            little higher than the other</ufoDesc>. <ufoDesc>One oject above the other</ufoDesc>.
+            <event>We turned off the main road to park the car and take photographs</event>.
+            <event>They were now in front of us and we were facing west. We have never in our lives
+            seen objects in the sky like this</event>. L<event>uckily we pulled over where other
+            members of the public had pulled over, along with dog walkers who had congregated in
+            amazement</event>. without managing to take a photo the objects seemed to start moving
+        further away, drawing themselves together to make themselves look like one object and
+            <ufoDesc>it/they it disappeared into the distance</ufoDesc> heading towards the west.
+            <ufoDesc>At first quick glance they looked like they could have been helicopters but
+            they definately weren't</ufoDesc>. <ufoDesc>The light that they emitted was very strong
+            and surrounded each object in full</ufoDesc>. <ufoDesc>It was a yellow/orange</ufoDesc>.
+        The whole sight was so extrodinary that after talking about it for hours we began to doubt
+        ourselves. <event>This is why we're so very glad to have met with other members of the
+            public so that our doubts couldn't be varified</event>. We began to reason that the
+        evert would be in the local news as some sort of Christmas hoax but unfortunatelv we've not
+        heard of anything apart from sightings on the 30th <weather>December</weather> about 20
+        minutes away by car! We would be most very thankful if you could inform us as to what these
+        could have</body>
     <signature>Many thanks and kind regards,[]</signature>
 
 </report>
