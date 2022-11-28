@@ -104,9 +104,10 @@
                     }
                 </style>
             </head>
+            <body>
             <div id="header"/>
             <div class="container">
-                <body>
+               
                     <h1>Full UFO Reports</h1>
                     <h2>Table of Contents</h2>
                    <div class="row">
@@ -179,10 +180,11 @@
                     </xsl:for-each>
                     <button id="myBtn"><a href="#top" style="color: white">Back to Top</a></button>
 
-                </body>
+                
 
             </div>
             <div id="footer"/>
+            </body>
         </html>
     </xsl:template>
 

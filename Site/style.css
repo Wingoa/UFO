@@ -13,7 +13,14 @@ body {
   text-align: center;
   font-size: large;
   font-family:Arial, Helvetica, sans-serif;
+  text-size-adjust: auto;
+  -webkit-text-size-adjust: auto;
+  -moz-text-size-adjust: auto;
+  -ms-text-size-adjust: auto;
+}
 
+h1 {
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .container,

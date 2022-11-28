@@ -16,7 +16,7 @@
         <html>
             <head>
                 <title>UFO Report Highlights</title>
-                <link type="text/css" href="https://style.css" rel="stylesheet"/>
+                <link type="text/css" href="style.css" rel="stylesheet"/>
                 <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"/>
                 <script>
                     $(function () {
@@ -102,9 +102,11 @@
                     
                 </style>
             </head>
+            <body>
             <div id="header"/>
+            
             <div class="container">
-                <body>
+              
                     <h1>UFO Report Highlights</h1>
                     <h2>Table of Contents</h2>
                     
@@ -217,8 +219,9 @@
                     </xsl:for-each>
                     <button id="myBtn"><a href="#top" style="color: white">Back to Top</a></button>
                     
-                </body>
+               
             </div>
+            </body>
             <div id="footer"/>
         </html>
     </xsl:template>
