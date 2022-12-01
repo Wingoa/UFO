@@ -17,6 +17,12 @@ body {
   -webkit-text-size-adjust: auto;
   -moz-text-size-adjust: auto;
   -ms-text-size-adjust: auto;
+  height: 100%;
+  word-wrap: break-word;
+}
+
+html{
+  height: 100%;
 }
 
 h1 {

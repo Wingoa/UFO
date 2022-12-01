@@ -283,7 +283,7 @@
                 <xsl:apply-templates/>
             </span>
         </li>
-        <!--this needs distinct values-->
+        <!--this needs distinct values: distinct-values(//organization[@org]) -->
 
     </xsl:template>
 
