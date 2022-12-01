@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<report id="2624_Report_pg8">
+    
+    
+       <head>
+        firstname: []
+        lastname: []
+        address1: []
+        address2: eston
+        townecity: middlesbrough
+        statecountry: cleveland
+        zipcodepostcode: []
+        telephone: []
+        country: UK
+        emailaddress: []
+        incident: 10.40pm <eventDate date="04/09/2008">04/09/2008</eventDate>
+       </head> 
+        
+    <body>request: Me and a friend were heading up the A19 north bound, going just past
+        <eventLocation eloc="Borrowby">borrowby</eventLocation> between mt grace, I noticed some <event><ufoDesc>bright green lights with a blue light</ufoDesc> moving
+        very quickly through the trees</event> and once we came past the trees the craft cut across
+        the motoway in what can only be described as a <ufoDesc>very unusual large and silent craft</ufoDesc>
+        moving very fast wich then <event>changed direction and headed towards the back of the car
+        and shot out of site very quickly</event>. I have seen low flying fighter jets before and i
+        know they have quite a loud distinct noise and shape when flying. The craft that we
+        saw was <ufoDesc>silent, moving extremely fast, very large and had multiple bright lights</ufoDesc> on it
+        not to mention its unusual shape.</body> 
+        <signature>Please if you can shed some light on the matter and
+        did have low flying air crafts in this area iet me know as i thought we were both
+        going mad.</signature>
+        
+
+ 
+</report>

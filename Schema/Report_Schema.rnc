@@ -32,5 +32,5 @@ date = attribute date { text }
 alienDesc = element alienDesc { text }
 ufoDesc = element ufoDesc { (text | eventName)* }
 weather = element weather { text }
-signature = element signature { (text | organization)* }
+signature = element signature { (text | organization | eventLocation )* }
 

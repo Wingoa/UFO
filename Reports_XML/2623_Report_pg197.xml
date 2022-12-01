@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<report id="2623_Report_pg197">
+    
+    <head>12 Dec 2007</head> 
+        
+    <address>Dear Sir/Madam</address>
+        
+    <body>I am writing to you in regards to an unusual aerial observation that I
+        witnessed on Saturday the <eventDate date="10/20/2007"> 20 October 2007</eventDate> at 12.10 pm above my fathers home,
+        which is situated on the outskirts of <eventLocation eloc="Portsmouth">Portsmouth</eventLocation> below portsdown hill.
+        Just after midday at 12.10 pm I observed from my fathers back garden an unusual
+        <ufoDesc>oval/spherical shaped</ufoDesc> object that appeared to cross the flight path of a commercial
+        aircraft, narrowly missing it, <event>as the <ufoDesc>oval/spherical object</ufoDesc> approached the aircraft it
+        appeared to <ufoDesc>accelerate very fast</ufoDesc>, in doing so it appeared to <ufoDesc>wobble from side to side</ufoDesc></event> as
+        <event>it passed directly in front of the commercial aircraft narrowly avoiding a collision</event>, I
+        briefly watched the object move off to the east before deciding to rush back in to my
+        fathers home to retrieve my camcorder, but unfortunately when I returned to the
+        garden the object was no longer visible, (see drawing enclosed, Attachment 1!)
+        However within 2 minutes I sighted and managed to film on my camcorder another
+        object in the sky roughly in the same vicinity as the previous occurrence that I
+        couldn’t identify (see pictures enclosed, Attachment 2) the <event>object remained virtually
+        stationary throughout the duration of 10 mimutes until it finally disappeared in to the
+        clouds</event>.
+        
+        Mr Alan Hubrecht who is a Belgium national and a “<organization org="NATO">NATO</organization> expert in peace support
+        operations and critical infrastructure projection” wrote on my behalf to <organization org="Airprox">Airprox</organization>
+        concerning this incident, <organization org="Airprox">Airprox</organization> passed on the information to the <organization org="CAA">CAA</organization> (see
+        enclosed; Mr Hubrecht’s initial request to <organization org="Airprox">Airprox</organization> (Attachment 3) and the <organization org="CAA">CAA’s</organization>
+        reply back to Mr Hubrecht concerning the radar data, Attachment 4). </body>
+        
+        <signature>Mr Hubrecht has asked if he could communicate with you directly concerning this
+        incident,
+        Is this possible?
+        
+        I would be grateful for your help in this matter.
+        Yours sincerely
+        []</signature>
+
+    
+    
+</report>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<report id="2625_Report_pg61">
+    
+<head>Further call from [] </head>    
+    
+<body>
+    Convinced searchlight activity was not responsible for <ufoDesc>six bright
+    orange circular lights</ufoDesc> seen over <eventLocation eloc="Inverness">Inverness</eventLocation> from Talford St
+    (by the canal) couldn't judge distance of height but it
+    was not reflection on clouds, nor fireworks, she spoke
+    with Police who said they knew of no activity at the time.
+    Just after <weather>2300-2330</weather> (27th) speaking with []
+    helicopter or lights rule out. Informed [] that
+    other than searchlight display, and no military activity
+    over <eventLocation eloc="Inverness">Inverness</eventLocation> we have no explanation but would raise
+    this report for submission.</body>
+    
+    <signature>Address for correspondence
+    []
+    <eventLocation eloc="Inverness">Inverness</eventLocation>
+    []
+    
+    Called to [] and <organization org="ARCC">ARCC</organization> - no known aerial activity in
+    vicinity of  <eventLocation eloc="Inverness">Inverness</eventLocation> at times of report.</signature>
+    
+
+    
+</report>

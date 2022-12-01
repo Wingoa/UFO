@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<report id="2624_Report_pg55">
+    
+    <head>From: []
+    Sent: 28 August 2008 20:43
+    To: <organization org="DAS">DAS-UFO-Office</organization>
+    Subject: <eventName>Sighting South wales</eventName>
+    </head>
+    
+    
+    <body>
+        Hi, i would like to report a sighting of a flying saucer i've seen.  
+        On the <eventDate date="08/15/08">15/08/08</eventDate> at <weather>9:10pm</weather> while riding home on my motorcycle, i spotted <ufoDesc>three bright orange
+        lights</ufoDesc> in the sky about a mile away, i pulled over to look and noticed that the lights were
+        heading towards me. <event>The lights switched off one by one</event> but i could still see one of the objects, i
+        lost sight of the other two, this object was <ufoDesc>black and disc shaped, it also moved quick and was
+        silent.</ufoDesc>
+        
+        My location -<eventLocation eloc="Argoed"> Argoed South Wales</eventLocation>. 
+        The lights were first spotted south of me near <eventLocation eloc="Blackwood">Blackwood</eventLocation> and one saucer was observed heading
+        north.
+        The saucer was in clear view over head at one point.
+        I've also been told that there was a sighting about the same in <location loc="Bargoed">Bargoed</location>.</body>
+        
+        <signature>I'm not the best at typing so i've kept it short but if theres any details you think i've missed out
+        or any question, just ask. Thanks []</signature>
+    
+
+
+
+</report>

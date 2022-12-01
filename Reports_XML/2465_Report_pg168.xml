@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<report id="2465_Report_pg168">
+    
+    <head>From: []
+        Sent: <eventDate date="10/30/2009">30 October 2009</eventDate> 17:52
+        To: <organization org="Air_Cmd_UFO">Air CmdSecCS-UFO Desk 1</organization>
+        Subject: Just saw something amazing.
+    </head>
+
+    <body>
+        I'm not a UFO person, doesn't really interest me in the slightest. I don't either believe that it 
+        could be possible. But I was upstairs in my room (I'm 17), and my mom called me down.  We 
+        were both amazed to see something in the sky. I live in <eventLocation eloc="Great_Barr">Great Barr, Birmingham, UK</eventLocation>. I know 
+        for a fact that we couldn't have been the only people to have saw the thing in the sky. It was 
+        <ufoDesc>insanely bright</ufoDesc>, so bright it hurt my eyes, and so bright that it could be seen for 5 minutes after 
+        it has passed overhead. There was also an aeroplane in the sky at the same time, I'd put 
+        money on them seeing it.
+        
+        It happened like 5 minutes ago, the only way i could describe it, is as being a <ufoDesc>really bright 
+        jellyfish</ufoDesc>. The sort you see in documentaries glowing in the deep seas. It probably looked 
+        nothing like a jellyfish; but that was the general shape. I know I keep repeating myself, but If I 
+        google what I saw I bet someone else saw it too. It seemed to descend over my house, but 
+        that was just probably the fact that it was <ufoDesc>immensely big</ufoDesc>. My mom is still gobsmacked.</body>
+        
+        <signature>I had to share this. If I didn't tell anyone I would have probably exploded.
+        
+        []
+        
+        P.S. If you know anything about it, please tell me!</signature>
+        
+
+    
+</report>
