@@ -18,13 +18,31 @@
                 <title>Locations</title>
             </head>
             <body>
-                <h1>Locations</h1>
+                <h1>Locations: List 1</h1>
+<!--whc: This first list calls for an additional template rule below. It will give every location element, but
+                    because it is structured to do so by first matching on reports, it can't be reduced to a sorted list
+                    of places with each containing a list of reports that contain them.-->
                 <ol>
                     <xsl:apply-templates select="$UFOReports//report[.//location]"/>
                </ol>
+                
+                <h1>Locations: List 2</h1>
+ <!--whc: the problem with the second list is that it will only give the first instance of any location in
+     the whole collection. Therefore it will not give all the report numbers for each location. -->
+                <ol>
+                    <xsl:for-each-group select="$UFOReports//location" group-by="@loc">
+                        <li><xsl:apply-templates/><ul>
+                            <xsl:for-each select="ancestor::report">
+                                <li><xsl:value-of select="@id"/></li>
+                            </xsl:for-each>
+                        </ul>
+                        </li>
+                    </xsl:for-each-group>
+                </ol>
             </body>
         </html>
-    </xsl:template>     
+    </xsl:template>  
+    
     <xsl:template match="report">
         <xsl:for-each-group select=".//location" group-by="@loc">
             <li>
