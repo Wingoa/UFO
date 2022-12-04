@@ -4,48 +4,48 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-      <title>UFO Report Highlights</title>
+      <title>UFO Map Info</title>
       <link type="text/css" href="style.css" rel="stylesheet" /><script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script><script>
                     $(function () {
                     $("#header").load("header.html");
                     $("#footer").load("footer.html");
                     });
-                 
+                    
                 </script><style>
                     table,
                     th,
                     td {
-                        border: 1px solid black;
-                        font-family: 'Courier New', Courier, monospace !important;
+                    border: 1px solid black;
+                    font-family: 'Courier New', Courier, monospace !important;
                     }
                     tr {
-                        height: 25px;
-                        border-bottom: 2px solid;
+                    height: 25px;
+                    border-bottom: 2px solid;
                     
                     }
                     tr:hover {
-                        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+                    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
                     }
                     th {
-                        width: 200px;
-                        text-transform: capitalize;
+                    width: 200px;
+                    text-transform: capitalize;
                     }
                     td {
-                        width: 250px;
-                        padding-right: 50px;
+                    width: 250px;
+                    padding-right: 50px;
                     }
                     table {
-                        background-color: #ffffff;
-                        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
-                        margin-top: 50px;
-                        width: 80%;
-                        margin-left: auto;
-                        margin-right: auto;
-                        border-collapse: collapse;
+                    background-color: #ffffff;
+                    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+                    margin-top: 50px;
+                    width: 80%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    border-collapse: collapse;
                     
                     }
                     h1 {
-                        font-family: 'Courier New', Courier, monospace;
+                    font-family: 'Courier New', Courier, monospace;
                     }
                     ol {
                     columns: 4 !important;
@@ -89,60 +89,9 @@
                 </style>
    </head>
    <body>
-      <div id="header"></div>
       <div class="container">
          <h1>UFO Report Highlights</h1>
          <h2>Table of Contents</h2>
-         <div class="row">
-            <div class="col">
-               <ol class="centered">
-                  <li><a href="#2465_Report_pg168" style="font-size:x-large;"><strong>10/30/2009</strong></a></li>
-                  <li><a href="#2459_Report_pg128" style="font-size:x-large;"><strong>02/02/2009</strong></a></li>
-                  <li><a href="#2465_Report_pg155" style="font-size:x-large;"><strong>10/31/2009</strong></a></li>
-                  <li><a href="#2462_Report_pg55" style="font-size:x-large;"><strong>08/01/2009</strong></a></li>
-                  <li><a href="#2460_Report_pg136" style="font-size:x-large;"><strong>03/27/2009</strong></a></li>
-                  <li><a href="#2452_Report_pg71" style="font-size:x-large;"><strong>08/12/2009</strong></a></li>
-                  <li><a href="#2454_Report_pg246" style="font-size:x-large;"><strong>01/13/2009</strong></a></li>
-                  <li><a href="#2463_Report_pg78" style="font-size:x-large;"><strong>07/11/2009</strong></a></li>
-                  <li><a href="#2452_Report_pg6" style="font-size:x-large;"><strong>11/01/2009</strong></a></li>
-                  <li><a href="#2459_Report_pg42" style="font-size:x-large;"><strong>02/15/2009</strong></a></li>
-                  <li><a href="#2461_Report_pg134" style="font-size:x-large;"><strong>06/14/2009</strong></a></li>
-                  <li><a href="#2459_Report_pg44" style="font-size:x-large;"><strong>02/23/2009</strong></a></li>
-                  <li><a href="#2461_Report_pg61" style="font-size:x-large;"><strong>06/17/2009</strong></a></li>
-                  <li><a href="#2461_Report_pg90" style="font-size:x-large;"><strong>05/23/2009</strong></a></li>
-                  <li><a href="#2465_Report_pg100" style="font-size:x-large;"><strong>11/01/2009</strong></a></li>
-                  <li><a href="#2460_Report_pg189" style="font-size:x-large;"><strong>06/02/2009</strong></a></li>
-                  <li><a href="#2463_Report_pg88" style="font-size:x-large;"><strong>09/02/2009</strong></a></li>
-                  <li><a href="#2459_Report_pg121" style="font-size:x-large;"><strong>04/02/2009</strong></a></li>
-                  <li><a href="#2460_Report_pg113" style="font-size:x-large;"><strong>04/11/2009</strong></a></li>
-                  <li><a href="#2465_Report_pg98" style="font-size:x-large;"><strong>06/11/2009</strong></a></li>
-                  <li><a href="#2462_Report_pg49" style="font-size:x-large;"><strong>08/07/2009</strong></a></li>
-                  <li><a href="#2462_Report_pg157" style="font-size:x-large;"><strong>07/15/2009</strong></a></li>
-                  <li><a href="#2459_Report_pg6" style="font-size:x-large;"><strong>03/01/2008</strong></a></li>
-                  <li><a href="#2626_Report_pg153" style="font-size:x-large;"><strong>09/20/2008</strong></a></li>
-                  <li><a href="#2624_Report_pg8" style="font-size:x-large;"><strong>04/09/2008</strong></a></li>
-                  <li><a href="#2624_Report_pg55" style="font-size:x-large;"><strong>08/15/2008</strong></a></li>
-                  <li><a href="#2625_Report_pg103" style="font-size:x-large;"><strong>06/24/2008</strong></a></li>
-                  <li><a href="#2449_Report_pg225" style="font-size:x-large;"><strong>06/07/2008</strong></a></li>
-                  <li><a href="#2450_Report_pg11" style="font-size:x-large;"><strong>05/02/2008</strong></a></li>
-                  <li><a href="#2459_Report_pg184" style="font-size:x-large;"><strong>12/25/2008</strong></a></li>
-                  <li><a href="#2449_Report_pg223" style="font-size:x-large;"><strong>06/07/2008</strong></a></li>
-                  <li><a href="#2625_Report_pg193" style="font-size:x-large;"><strong>01/06/2008</strong></a></li>
-                  <li><a href="#2460_Report_pg79" style="font-size:x-large;"><strong>09/01/2008</strong></a></li>
-                  <li><a href="#2628_Report_pg111" style="font-size:x-large;"><strong>02/15/2008</strong></a></li>
-                  <li><a href="#2451_Report_pg90" style="font-size:x-large;"><strong>??/??/2007</strong></a></li>
-                  <li><a href="#2623_Report_pg197" style="font-size:x-large;"><strong>10/20/2007</strong></a></li>
-                  <li><a href="#2456_Report_pg234" style="font-size:x-large;"><strong>06/01/2007</strong></a></li>
-                  <li><a href="#2628_Report_pg102" style="font-size:x-large;"><strong>08/27/2006</strong></a></li>
-                  <li><a href="#2625_Report_pg61" style="font-size:x-large;"><strong>06/27/2005</strong></a></li>
-                  <li><a href="#2452_Report_pg156" style="font-size:x-large;"><strong>12/24/1995</strong></a></li>
-                  <li><a href="#2628_Report_pg172" style="font-size:x-large;"><strong>10/01/1992</strong></a></li>
-                  <li><a href="#2450_Report_pg40" style="font-size:x-large;"><strong>06/02/1980</strong></a></li>
-                  <li><a href="#2448_Report_pg46" style="font-size:x-large;"><strong>12/29/1980</strong></a></li>
-               </ol>
-               <hr />
-            </div>
-         </div>
          <div class="row justify-content-center" id="2465_Report_pg168">
             <div class="col"></div>
          </div>
@@ -162,7 +111,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2465_Report_pg168.pdf" target="_blank">2465_Report_pg168</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2465_Report_pg168.pdf" target="_blank">2465_Report_pg168</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -178,7 +127,7 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=Great Barr, Birmingham, UK">Great Barr, Birmingham, UK</a></h4>
+                        <h4 style="font-weight: normal;"><span>Great Barr, Birmingham, UK</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -190,29 +139,6 @@
                            <li><span class="ufoDesc">really bright 
                                  jellyfish</span></li>
                            <li><span class="ufoDesc">immensely big</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul></ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">  I'm not a UFO person, doesn't really interest me in the slightest</span></li>
-                           <li><span class="event">we couldn't have been the only people to have saw the thing in the sky</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="org">Air CmdSecCS-UFO Desk 1</span></li>
                         </ul>
                      </th>
                   </tr>
@@ -238,7 +164,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2459_Report_pg128.pdf" target="_blank">2459_Report_pg128</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2459_Report_pg128.pdf" target="_blank">2459_Report_pg128</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -254,7 +180,7 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=Basingstoke in Hampshire">Basingstoke in Hampshire</a></h4>
+                        <h4 style="font-weight: normal;"><span>Basingstoke in Hampshire</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -280,29 +206,6 @@
                         </ul>
                      </th>
                   </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="weather">11:1Opm</span></li>
-                           <li><span class="weather">12:10am</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">I'm not sure that these were UFOs</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul></ul>
-                     </th>
-                  </tr>
                </table>
             </div>
          </div>
@@ -326,7 +229,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2465_Report_pg155.pdf" target="_blank">2465_Report_pg155</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2465_Report_pg155.pdf" target="_blank">2465_Report_pg155</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -342,7 +245,7 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=Winchburgh">Winchburgh</a></h4>
+                        <h4 style="font-weight: normal;"><span>Winchburgh</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -368,33 +271,6 @@
                         </ul>
                      </th>
                   </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="weather">Saturday night</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">Please find below a UFO eye witness statement that I have submitted to the UK
-                                 UFO SIGHTING website</span></li>
-                           <li><span class="event">at about 7.30pm heard rapid approach
-                                 of a helicopter</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="org">RAF Leuchars</span></li>
-                        </ul>
-                     </th>
-                  </tr>
                </table>
             </div>
          </div>
@@ -417,7 +293,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2462_Report_pg55.pdf" target="_blank">2462_Report_pg55</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2462_Report_pg55.pdf" target="_blank">2462_Report_pg55</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -433,7 +309,7 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=New Mills in the High Peak Derbyshire">New Mills in the High Peak Derbyshire</a></h4>
+                        <h4 style="font-weight: normal;"><span>New Mills in the High Peak Derbyshire</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -442,36 +318,6 @@
                         <ul>
                            <li><span class="ufoDesc">9 bright orange circular shapes glide across the night sky</span></li>
                            <li><span class="ufoDesc">don't move like these lights did</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="weather">night</span></li>
-                           <li><span class="weather">around 10.30pm</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">They seemed
-                                 to be travelling at a speed similar to that of an aircraft</span></li>
-                           <li><span class="event">more lights came into view</span></li>
-                           <li><span class="event">It
-                                 lasted for a couple of mins</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="org">Manchester
-                                 Airport</span></li>
                         </ul>
                      </th>
                   </tr>
@@ -498,7 +344,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2460_Report_pg136.pdf" target="_blank">2460_Report_pg136</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2460_Report_pg136.pdf" target="_blank">2460_Report_pg136</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -514,7 +360,7 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=Walthamstow London">Walthamstow London</a></h4>
+                        <h4 style="font-weight: normal;"><span>Walthamstow London</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -534,31 +380,6 @@
                                  underneath each one at a slight angle away from the direction of the objects
                                  travel</span></li>
                         </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="weather">4:1Opm</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">Cannot remember exact
-                                 shape as all happened to quickly</span></li>
-                           <li><span class="event">I
-                                 should have stopped the car to get a better look</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul></ul>
                      </th>
                   </tr>
                </table>
@@ -583,7 +404,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2452_Report_pg71.pdf" target="_blank">2452_Report_pg71</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2452_Report_pg71.pdf" target="_blank">2452_Report_pg71</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -599,7 +420,7 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=Kfar-Saba, Israel">Kfar-Saba, Israel</a></h4>
+                        <h4 style="font-weight: normal;"><span>Kfar-Saba, Israel</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -617,30 +438,6 @@
                            <li><span class="ufoDesc">The object was
                                  perfectly still</span></li>
                         </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="weather">9-10pm</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">aside off the triangle</span></li>
-                           <li><span class="event">I was busy looking for fresh batteries for my camera and this was the only sample
-                                 capture I was able to take until the camera died</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul></ul>
                      </th>
                   </tr>
                </table>
@@ -665,7 +462,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2454_Report_pg246.pdf" target="_blank">2454_Report_pg246</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2454_Report_pg246.pdf" target="_blank">2454_Report_pg246</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -681,7 +478,7 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=Brightlingsea, Essex">Brightlingsea, Essex</a></h4>
+                        <h4 style="font-weight: normal;"><span>Brightlingsea, Essex</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -699,40 +496,6 @@
                            <li><span class="ufoDesc">1500 to 2000 feet up</span></li>
                            <li><span class="ufoDesc">It stayed perfectly still for about 3-4 minutes then appeared to shoot straight
                                  up in the air very fast, going completely out of view in less then 30 seconds</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="weather">midnight</span></li>
-                           <li><span class="weather">night was extremely clear with no clouds or
-                                 mist</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">I have been a serving Police Officer for a
-                                 number of years now and my Partner Karl Norman</span></li>
-                           <li><span class="event">I could hear fireworks in the
-                                 distance</span></li>
-                           <li><span class="event">I Ignored it thinking it was
-                                 a trailing firework</span></li>
-                           <li><span class="event">I must be honest I stood there a bit in awe and missed the start of the new year
-                                 because of it</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="org">RAF</span></li>
-                           <li><span class="org">RAF</span></li>
                         </ul>
                      </th>
                   </tr>
@@ -759,7 +522,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2463_Report_pg78.pdf" target="_blank">2463_Report_pg78</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2463_Report_pg78.pdf" target="_blank">2463_Report_pg78</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -775,8 +538,8 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=palmers green, North%0A            London">palmers green, North
-                              London</a></h4>
+                        <h4 style="font-weight: normal;"><span>palmers green, North
+                              London</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -796,49 +559,6 @@
                                  protruding from it, also on fire, but with a visible gap between the body and the
                                  leg.</span></li>
                         </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="weather">drizzly</span></li>
-                           <li><span class="weather">evening</span></li>
-                           <li><span class="weather">between 8-9 pm</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">My initial thought was it was a plane on fire about to
-                                 crash</span></li>
-                           <li><span class="event">it wasn't travelling fast enough as a crashing plane, more
-                                 like a slow motion crash as we had time to comment on the trajectory</span></li>
-                           <li><span class="event">We
-                                 all waited for the 'bang' but nothing</span></li>
-                           <li><span class="event">again another object passed by about 3-5 minutes
-                                 after seeing the first one</span></li>
-                           <li><span class="event">flew past a little higher but along the same path</span></li>
-                           <li><span class="event">For the third
-                                 time another object flew overhead</span></li>
-                           <li><span class="event">I managed to capture an image of this one but not as close as i would have
-                                 liked</span></li>
-                           <li><span class="event">In
-                                 short • we saw 3 spherical fireballs, with an orange glow • seen north London N13
-                                 •
-                                 approx 8 9- pm saturday 11th July 2009. • 3 witnesses - no alcohol involved • all
-                                 following same path. one almost appearing to crash before appearing higher in the
-                                 sky •
-                                 distance of 25 - 50 metres</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul></ul>
                      </th>
                   </tr>
                </table>
@@ -863,7 +583,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2452_Report_pg6.pdf" target="_blank">2452_Report_pg6</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2452_Report_pg6.pdf" target="_blank">2452_Report_pg6</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -879,7 +599,7 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=Humberston">Humberston</a></h4>
+                        <h4 style="font-weight: normal;"><span>Humberston</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -890,33 +610,6 @@
                                  shape</span></li>
                            <li><span class="ufoDesc">there was NO sound</span></li>
                         </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="weather">misty in the sky</span></li>
-                           <li><span class="weather">ground level it was clear</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">slowly moving across the sky</span></li>
-                           <li><span class="event">They were moving in formation from West to north
-                                 east {towards the sea)</span></li>
-                           <li><span class="event">one of the lights
-                                 disappeared quickly</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul></ul>
                      </th>
                   </tr>
                </table>
@@ -941,7 +634,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2459_Report_pg42.pdf" target="_blank">2459_Report_pg42</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2459_Report_pg42.pdf" target="_blank">2459_Report_pg42</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -957,7 +650,7 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=Winwick Warrington">Winwick Warrington</a></h4>
+                        <h4 style="font-weight: normal;"><span>Winwick Warrington</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -975,35 +668,6 @@
                            <li><span class="ufoDesc">there was no noise</span></li>
                            <li><span class="ufoDesc">It was out of sight within around 15 seconds</span></li>
                         </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="weather">early hours</span></li>
-                           <li><span class="weather">00:15hrs</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">We stopped
-                                 the car and got out to have a look</span></li>
-                           <li><span class="event">As we did we saw other people in nearby houses also
-                                 stood looking at them</span></li>
-                           <li><span class="event">There was definitely
-                                 something strange about it I am not a real believer in ufos but there is no other
-                                 explanation</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul></ul>
                      </th>
                   </tr>
                </table>
@@ -1028,7 +692,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2461_Report_pg134.pdf" target="_blank">2461_Report_pg134</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2461_Report_pg134.pdf" target="_blank">2461_Report_pg134</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -1044,7 +708,7 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=ariow Essex">ariow Essex</a></h4>
+                        <h4 style="font-weight: normal;"><span>ariow Essex</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -1059,35 +723,6 @@
                            <li><span class="ufoDesc">The object was almost silent</span></li>
                            <li><span class="ufoDesc">no flashing lights or obvious shape and also almost silent</span></li>
                         </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="weather">around 10pm</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">Above us (if you were to hold out your hand) it would have been the size of a 20
-                                 pence piece</span></li>
-                           <li><span class="event">I
-                                 waited for almost 20 minutes trying to convince myself it may have been the route
-                                 of
-                                 planes, but nothing else was seen</span></li>
-                           <li><span class="event">I managed to take a picture of the
-                                 iphone</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul></ul>
                      </th>
                   </tr>
                </table>
@@ -1112,7 +747,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2459_Report_pg44.pdf" target="_blank">2459_Report_pg44</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2459_Report_pg44.pdf" target="_blank">2459_Report_pg44</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -1128,7 +763,7 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=Waterloo, London">Waterloo, London</a></h4>
+                        <h4 style="font-weight: normal;"><span>Waterloo, London</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -1155,34 +790,6 @@
                         </ul>
                      </th>
                   </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="weather">22:52</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">I have become quite
-                                 perturbed over the past couple of nights by UFO's</span></li>
-                           <li><span class="event">lights moving down</span></li>
-                           <li><span class="event">it headed
-                                 north over my apartment and out of sight</span></li>
-                           <li><span class="event">I do not proclaim to be an expert in helicopters, but am able to spot one
-                                 from my window with ease normally</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul></ul>
-                     </th>
-                  </tr>
                </table>
             </div>
          </div>
@@ -1205,7 +812,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2461_Report_pg61.pdf" target="_blank">2461_Report_pg61</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2461_Report_pg61.pdf" target="_blank">2461_Report_pg61</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -1221,7 +828,7 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=Wroughton">Wroughton</a></h4>
+                        <h4 style="font-weight: normal;"><span>Wroughton</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -1234,30 +841,6 @@
                            <li><span class="ufoDesc">lights shining from beneath</span></li>
                            <li><span class="ufoDesc">them hovering over crop circles</span></li>
                            <li><span class="ufoDesc">he discs cast shadows beneath them</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="weather">between 1930 and 200hrs</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">were captured on two separate video cameras</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="org">RAF</span></li>
                         </ul>
                      </th>
                   </tr>
@@ -1284,7 +867,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2461_Report_pg90.pdf" target="_blank">2461_Report_pg90</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2461_Report_pg90.pdf" target="_blank">2461_Report_pg90</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -1300,7 +883,7 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=In Winsford Cheshire">In Winsford Cheshire</a></h4>
+                        <h4 style="font-weight: normal;"><span>In Winsford Cheshire</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -1314,33 +897,6 @@
                            <li><span class="ufoDesc">no noise for a craft which was only at an altitude of a helicopter</span></li>
                            <li><span class="ufoDesc">there was no noise and they then eventually gained height and all disappeared</span></li>
                         </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="weather">approx 23:00 hrs</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">This was not the normal flight
-                                 path</span></li>
-                           <li><span class="event">A few
-                                 seconds later 5 more objects appeared then another 2</span></li>
-                           <li><span class="event">I took pictures of the objects passing
-                                 over</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul></ul>
                      </th>
                   </tr>
                </table>
@@ -1365,7 +921,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2465_Report_pg100.pdf" target="_blank">2465_Report_pg100</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2465_Report_pg100.pdf" target="_blank">2465_Report_pg100</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -1381,7 +937,7 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=Derbyshire">Derbyshire</a></h4>
+                        <h4 style="font-weight: normal;"><span>Derbyshire</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -1410,48 +966,6 @@
                         </ul>
                      </th>
                   </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="weather">7:40 pm</span></li>
-                           <li><span class="weather">extremely clear night</span></li>
-                           <li><span class="weather">night</span></li>
-                           <li><span class="weather">It was pitch black outside</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">plane I saw seemed odd,
-                                 it moved too slowly, considering how low in the sky it was.</span></li>
-                           <li><span class="event">It was a UFO
-                                 because ti wasn't like any plane I have ever seen, it wasn't on a Flight path I have
-                                 ever
-                                 seen.</span></li>
-                           <li><span class="event">2009 has seen the highest incidence of UFO reports Worldwide</span></li>
-                           <li><span class="event">There seemed to be a lot of activity in the skies, but nothing quite as startling
-                                 as what I had just seen</span></li>
-                           <li><span class="event">Simply because 99% of all ufo photos are so
-                                 inconclusive that nothing can be proved</span></li>
-                           <li><span class="event">I had another witness who saw at least 2 of these objects</span></li>
-                           <li><span class="event">what I saw in all three locations that night is consistent with current UFO sightings
-                                 across the country and the world.</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="org">Mcdonalds</span></li>
-                           <li><span class="org">Staffordshire Police</span></li>
-                           <li><span class="org">Civil Aviation authority</span></li>
-                        </ul>
-                     </th>
-                  </tr>
                </table>
             </div>
          </div>
@@ -1474,7 +988,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2460_Report_pg189.pdf" target="_blank">2460_Report_pg189</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2460_Report_pg189.pdf" target="_blank">2460_Report_pg189</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -1490,7 +1004,7 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=Mealrigg">Mealrigg</a></h4>
+                        <h4 style="font-weight: normal;"><span>Mealrigg</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -1533,40 +1047,6 @@
                         </ul>
                      </th>
                   </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="weather">17:30</span></li>
-                           <li><span class="weather">fine</span></li>
-                           <li><span class="weather">15
-                                 miles visibility</span></li>
-                           <li><span class="weather">wind speed - 1 knot</span></li>
-                           <li><span class="weather">cloudless
-                                 to horizon</span></li>
-                           <li><span class="weather">temp. approx. freezing</span></li>
-                           <li><span class="weather">clear / no distortion</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">Duration: approx. 5 mins</span></li>
-                           <li><span class="event"> witness used to civilian and military aircraft
-                                 types</span></li>
-                           <li><span class="event">VSTOL type aircraft and balloons (both definitely ruled out)</span></li>
-                           <li><span class="event">Definitely not astronomical or meteorological phenomenon</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul></ul>
-                     </th>
-                  </tr>
                </table>
             </div>
          </div>
@@ -1589,7 +1069,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2463_Report_pg88.pdf" target="_blank">2463_Report_pg88</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2463_Report_pg88.pdf" target="_blank">2463_Report_pg88</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -1605,7 +1085,7 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=Filey town centre">Filey town centre</a></h4>
+                        <h4 style="font-weight: normal;"><span>Filey town centre</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -1615,33 +1095,6 @@
                            <li><span class="ufoDesc">flying object</span></li>
                            <li><span class="ufoDesc">a brilliant and dazzling pure white horizontal ring of light</span></li>
                            <li><span class="ufoDesc">perfectly still in the sky above the houses and was totally silent</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="weather">00:46</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">I was completely transfixed by it and watched it for a few
-                                 minutes before I panicked and hurried back to my parents flat</span></li>
-                           <li><span class="event">All I can say is that
-                                 it was the strangest experience of my life and thought I should report it to someone</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="org">RAF</span></li>
                         </ul>
                      </th>
                   </tr>
@@ -1667,7 +1120,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2459_Report_pg121.pdf" target="_blank">2459_Report_pg121</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2459_Report_pg121.pdf" target="_blank">2459_Report_pg121</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -1683,7 +1136,7 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=Chesterton, Newcastle">Chesterton, Newcastle</a></h4>
+                        <h4 style="font-weight: normal;"><span>Chesterton, Newcastle</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -1714,38 +1167,6 @@
                         </ul>
                      </th>
                   </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="weather">18:32</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">I also knew it was not Venus as that is visible in another part
-                                 of the sky</span></li>
-                           <li><span class="event">I pulled over
-                                 in my car and pointed the object out to my two children</span></li>
-                           <li><span class="event">I grabbed my mobile phone and tried to take a photo of the
-                                 object but it did not appear on the photo</span></li>
-                           <li><span class="event">I then switched my phone to
-                                 video camera mode and filmed the object for approx fourty seconds</span></li>
-                           <li><span class="event">I took out my mobile phone
-                                 and the film I had taken of the object was gone but the photo I had taken remained
-                                 intact</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul></ul>
-                     </th>
-                  </tr>
                </table>
             </div>
          </div>
@@ -1768,7 +1189,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2460_Report_pg113.pdf" target="_blank">2460_Report_pg113</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2460_Report_pg113.pdf" target="_blank">2460_Report_pg113</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -1784,8 +1205,8 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=Chesterfield,%0A            Derbyshire">Chesterfield,
-                              Derbyshire</a></h4>
+                        <h4 style="font-weight: normal;"><span>Chesterfield,
+                              Derbyshire</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -1803,32 +1224,6 @@
                            <li><span class="ufoDesc">three lights in a horizontal
                                  line</span></li>
                         </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="weather">9:20pm</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">My initial thoughts were 'that
-                                 plane is flying low· and I went back to watching TV</span></li>
-                           <li><span class="event">I shouted upstairs to my boyfriend, who also witnessed the incident.</span></li>
-                           <li><span class="event">The whole incident could have only happened
-                                 over a couple of minutes, maybe less.</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul></ul>
                      </th>
                   </tr>
                </table>
@@ -1854,7 +1249,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2465_Report_pg98.pdf" target="_blank">2465_Report_pg98</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2465_Report_pg98.pdf" target="_blank">2465_Report_pg98</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -1870,7 +1265,7 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=Heckmondwike, West Yorkshire, UK">Heckmondwike, West Yorkshire, UK</a></h4>
+                        <h4 style="font-weight: normal;"><span>Heckmondwike, West Yorkshire, UK</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -1884,32 +1279,6 @@
                            <li><span class="ufoDesc">one looked much bigger and
                                  brighter</span></li>
                         </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="weather">2300 hours</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">They werent fireworks, and im not drunk</span></li>
-                           <li><span class="event">I videoed the lone one but its poor
-                                 quality</span></li>
-                           <li><span class="event">It probably was aircraft but I saw no other
-                                 coloured lights on wings</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul></ul>
                      </th>
                   </tr>
                </table>
@@ -1935,7 +1304,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2462_Report_pg49.pdf" target="_blank">2462_Report_pg49</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2462_Report_pg49.pdf" target="_blank">2462_Report_pg49</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -1951,7 +1320,7 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=London">London</a></h4>
+                        <h4 style="font-weight: normal;"><span>London</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -1963,31 +1332,6 @@
                            <li><span class="ufoDesc">seemed a little
                                  weridly shaped</span></li>
                         </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul></ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">to the right side of the telephone pole</span></li>
-                           <li><span class="event">i
-                                 first noticed it above the hill to left it moved to the right going out of view behind
-                                 the house, reapearing then seemed to fade out</span></li>
-                           <li><span class="event">I did send the photos to a few other sites but with no
-                                 reply.</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul></ul>
                      </th>
                   </tr>
                </table>
@@ -2013,7 +1357,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2462_Report_pg157.pdf" target="_blank">2462_Report_pg157</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2462_Report_pg157.pdf" target="_blank">2462_Report_pg157</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -2029,8 +1373,8 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=West of%0A            Trimkey St Mary. Suffolk">West of
-                              Trimkey St Mary. Suffolk</a></h4>
+                        <h4 style="font-weight: normal;"><span>West of
+                              Trimkey St Mary. Suffolk</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -2066,37 +1410,6 @@
                         </ul>
                      </th>
                   </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="weather">night</span></li>
-                           <li><span class="weather">23.30</span></li>
-                           <li><span class="weather">the Stars
-                                 could be seen clearly</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">Over the past two weeks the same event has been witnessed by myself and my girlfriend
-                                 twice, and a third person on a completely independant occasion.</span></li>
-                           <li><span class="event">doubled back on itself in a smooth motion to its original position in sky</span></li>
-                           <li><span class="event"> vauge black outline could be made out surrounding the light
-                                 against the night sky</span></li>
-                           <li><span class="event">acted and looked
-                                 so unlike conventional aircraft that I cannot think of an explanation</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul></ul>
-                     </th>
-                  </tr>
                </table>
             </div>
          </div>
@@ -2120,7 +1433,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2459_Report_pg6.pdf" target="_blank">2459_Report_pg6</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2459_Report_pg6.pdf" target="_blank">2459_Report_pg6</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -2136,7 +1449,7 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=Farleigh/Warlingham">Farleigh/Warlingham</a></h4>
+                        <h4 style="font-weight: normal;"><span>Farleigh/Warlingham</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -2157,33 +1470,6 @@
                            <li><span class="ufoDesc">They made no noise</span></li>
                            <li><span class="ufoDesc">lights</span></li>
                         </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="weather">night</span></li>
-                           <li><span class="weather">approximately 7pm</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">do not believe in ET!</span></li>
-                           <li><span class="event">I saw
-                                 one on it's own first off, which appeared to be just above the tree line ahead</span></li>
-                           <li><span class="event">We pulled over in the
-                                 entrance to Farleigh Golf Club and watched as they flew over our head before dissapearing</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul></ul>
                      </th>
                   </tr>
                </table>
@@ -2208,7 +1494,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2626_Report_pg153.pdf" target="_blank">2626_Report_pg153</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2626_Report_pg153.pdf" target="_blank">2626_Report_pg153</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -2224,8 +1510,8 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=Lyneham%0A            Air base">Lyneham
-                              Air base</a></h4>
+                        <h4 style="font-weight: normal;"><span>Lyneham
+                              Air base</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -2245,35 +1531,6 @@
                            <li><span class="ufoDesc">climbing altitude and travelled to quickly to be
                                  a balloon</span></li>
                            <li><span class="ufoDesc">huge fireball</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="weather">10pm</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">we
-                                 followed a 
-                                 <li><span class="ufoDesc">solo flying fireball</span></li> above us that gradually made its way
-                                 In the direction of Wootton Bassett climbing altitude until</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="org">DAS-UFO-Office</span></li>
-                           <li><span class="org">R.A.F</span></li>
-                           <li><span class="org">DAS</span></li>
                         </ul>
                      </th>
                   </tr>
@@ -2299,7 +1556,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2624_Report_pg8.pdf" target="_blank">2624_Report_pg8</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2624_Report_pg8.pdf" target="_blank">2624_Report_pg8</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -2315,7 +1572,7 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=borrowby">borrowby</a></h4>
+                        <h4 style="font-weight: normal;"><span>borrowby</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -2326,32 +1583,6 @@
                            <li><span class="ufoDesc">very unusual large and silent craft</span></li>
                            <li><span class="ufoDesc">silent, moving extremely fast, very large and had multiple bright lights</span></li>
                         </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="weather">10:40PM</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">
-                                 <li><span class="ufoDesc">bright green lights with a blue light</span></li> moving
-                                 very quickly through the trees</span></li>
-                           <li><span class="event">changed direction and headed towards the back of the car
-                                 and shot out of site very quickly</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul></ul>
                      </th>
                   </tr>
                </table>
@@ -2376,7 +1607,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2624_Report_pg55.pdf" target="_blank">2624_Report_pg55</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2624_Report_pg55.pdf" target="_blank">2624_Report_pg55</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -2392,7 +1623,7 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q= Argoed South Wales"> Argoed South Wales</a><a target="_blank" href="https://www.google.com/search?q=Blackwood">Blackwood</a></h4>
+                        <h4 style="font-weight: normal;"><span> Argoed South Wales</span><span>Blackwood</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -2403,30 +1634,6 @@
                                  lights</span></li>
                            <li><span class="ufoDesc">black and disc shaped, it also moved quick and was
                                  silent.</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="weather">9:10pm</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">The lights switched off one by one</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="org">DAS-UFO-Office</span></li>
                         </ul>
                      </th>
                   </tr>
@@ -2452,7 +1659,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2625_Report_pg103.pdf" target="_blank">2625_Report_pg103</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2625_Report_pg103.pdf" target="_blank">2625_Report_pg103</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -2468,7 +1675,7 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=Kendal">Kendal</a><a target="_blank" href="https://www.google.com/search?q=Kendal">Kendal</a></h4>
+                        <h4 style="font-weight: normal;"><span>Kendal</span><span>Kendal</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -2484,38 +1691,6 @@
                            <li><span class="ufoDesc">orange star</span></li>
                            <li><span class="ufoDesc">arrow shape</span></li>
                         </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="weather">11pm</span></li>
-                           <li><span class="weather">11.15pm</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">bright, phosphorus white light fell from
-                                 the orange one, and drifted siowly towards the ground before
-                                 disappearing</span></li>
-                           <li><span class="event">dart across in a straight
-                                 line and then do a NINETY DEGREES TURN before stopping</span></li>
-                           <li><span class="event">They came very close together,
-                                 then very far apart, the one on the left went from the top of the triangle
-                                 (the shape they had formed) to the bottom within 2 or 3 seconds</span></li>
-                           <li><span class="event">light do a
-                                 right-angle turn</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul></ul>
                      </th>
                   </tr>
                </table>
@@ -2541,7 +1716,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2449_Report_pg225.pdf" target="_blank">2449_Report_pg225</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2449_Report_pg225.pdf" target="_blank">2449_Report_pg225</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -2557,7 +1732,7 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=Temhill Barracks">Temhill Barracks</a></h4>
+                        <h4 style="font-weight: normal;"><span>Temhill Barracks</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -2568,34 +1743,6 @@
                            <li><span class="ufoDesc">the lights change
                                  colour and appear square, but this looks like the pixels snag up as the photographer
                                  zoomed in. They do not appear to be moving vary quickly</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="weather">11pm</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">a local hotel was lighting off Chinese
-                                 lanterns and, apparently, the hotel manager thinks the whole UFO story is “highly
-                                 hilarious”</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="org">MoD</span></li>
-                           <li><span class="org">Media Ops at HQ 5 Div</span></li>
-                           <li><span class="org">BBC</span></li>
                         </ul>
                      </th>
                   </tr>
@@ -2621,7 +1768,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2450_Report_pg11.pdf" target="_blank">2450_Report_pg11</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2450_Report_pg11.pdf" target="_blank">2450_Report_pg11</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -2637,7 +1784,7 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=West Midlands">West Midlands</a></h4>
+                        <h4 style="font-weight: normal;"><span>West Midlands</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -2647,32 +1794,6 @@
                            <li><span class="ufoDesc">object of a
                                  similar nature which had blue lights</span></li>
                            <li><span class="ufoDesc">object with blue/green lights</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="weather">night</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">2 additional Police Officers</span></li>
-                           <li><span class="event">We also have acquired photographs from an officer which we are trying to
-                                 confirm is of that particular night</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="org"><a target="_blank" href="https://www.google.com/search?q=West Midlands">West Midlands</a> Police</span></li>
                         </ul>
                      </th>
                   </tr>
@@ -2699,7 +1820,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2459_Report_pg184.pdf" target="_blank">2459_Report_pg184</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2459_Report_pg184.pdf" target="_blank">2459_Report_pg184</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -2715,7 +1836,7 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=Cathcart Road in Glasgow">Cathcart Road in Glasgow</a></h4>
+                        <h4 style="font-weight: normal;"><span>Cathcart Road in Glasgow</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -2735,36 +1856,6 @@
                                  and surrounded each object in full</span></li>
                            <li><span class="ufoDesc">It was a yellow/orange</span></li>
                         </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="weather">December</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">We turned off the main road to park the car and take photographs</span></li>
-                           <li><span class="event">They were now in front of us and we were facing west. We have never in our lives
-                                 seen objects in the sky like this</span></li>
-                           <li><span class="event">uckily we pulled over where other
-                                 members of the public had pulled over, along with dog walkers who had congregated
-                                 in
-                                 amazement</span></li>
-                           <li><span class="event">This is why we're so very glad to have met with other members of the
-                                 public so that our doubts couldn't be varified</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul></ul>
                      </th>
                   </tr>
                </table>
@@ -2789,7 +1880,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2449_Report_pg223.pdf" target="_blank">2449_Report_pg223</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2449_Report_pg223.pdf" target="_blank">2449_Report_pg223</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -2805,7 +1896,7 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=Tern Hill">Tern Hill</a></h4>
+                        <h4 style="font-weight: normal;"><span>Tern Hill</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -2815,29 +1906,6 @@
                            <li><span class="ufoDesc">multi-coloured dots and zoom in on a cube shaped object which then
                                  flattens</span></li>
                         </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="weather">23.03
-                                 </span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">"UFOs" in the sky above the camp</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul></ul>
                      </th>
                   </tr>
                </table>
@@ -2862,7 +1930,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2625_Report_pg193.pdf" target="_blank">2625_Report_pg193</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2625_Report_pg193.pdf" target="_blank">2625_Report_pg193</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -2878,7 +1946,7 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=gatwick airport">gatwick airport</a></h4>
+                        <h4 style="font-weight: normal;"><span>gatwick airport</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -2891,36 +1959,6 @@
                            <li><span class="ufoDesc">light, star, UFO</span></li>
                            <li><span class="ufoDesc">much slower speed</span></li>
                            <li><span class="ufoDesc">no sound</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="weather">cloud cover</span></li>
-                           <li><span class="weather">high fog</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">travelled in a perfectly straight line at the same altitude as the cloud
-                                 cover maybe a little higher</span></li>
-                           <li><span class="event">suddenly started moving in the same direction allthough it was not
-                                 taking the same path it was heading to the same point as the lst</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="org">ATC gatwick</span></li>
-                           <li><span class="org">sussex police</span></li>
-                           <li><span class="org">MOD UFO</span></li>
                         </ul>
                      </th>
                   </tr>
@@ -2947,7 +1985,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2460_Report_pg79.pdf" target="_blank">2460_Report_pg79</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2460_Report_pg79.pdf" target="_blank">2460_Report_pg79</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -2963,7 +2001,7 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=Gatwick Airport">Gatwick Airport</a></h4>
+                        <h4 style="font-weight: normal;"><span>Gatwick Airport</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -2982,35 +2020,6 @@
                            <li><span class="ufoDesc">This unusual oval shaped Ariel vehicle, after
                                  accelerating, just vanished out of view.</span></li>
                            <li><span class="ufoDesc">it was quite small in size</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="weather">11am</span></li>
-                           <li><span class="weather">It was raining to some degree</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">I was en route to collect my neighbour's wife and children from her return
-                                 trip from Toronto</span></li>
-                           <li><span class="event">this incident lasted for about 5- 10
-                                 seconds</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="org">MOD</span></li>
-                           <li><span class="org">Met Police</span></li>
                         </ul>
                      </th>
                   </tr>
@@ -3037,7 +2046,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2628_Report_pg111.pdf" target="_blank">2628_Report_pg111</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2628_Report_pg111.pdf" target="_blank">2628_Report_pg111</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -3053,8 +2062,8 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=BARKING%0A            STATION">BARKING
-                              STATION</a></h4>
+                        <h4 style="font-weight: normal;"><span>BARKING
+                              STATION</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -3070,33 +2079,6 @@
                                  IT</span></li>
                            <li><span class="ufoDesc">THE SIZE WAS AROUND 7 FEET WIDE AND 2
                                  FEET DEEP</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="weather">EVENINNG</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">I HAVE ALWAYS ASSOCIATED THIS SIGHTING WITH BEING CONNECTED
-                                 TO THE WAR BUT SEEING ALL THESE PCITURES OF UFO'S, THEY ARE AN ABSOLUTE REPLICA OF
-                                 WHAT
-                                 I SAW</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="org">MIINSTRY OF DEFENSE</span></li>
                         </ul>
                      </th>
                   </tr>
@@ -3122,7 +2104,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2451_Report_pg90.pdf" target="_blank">2451_Report_pg90</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2451_Report_pg90.pdf" target="_blank">2451_Report_pg90</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -3138,7 +2120,7 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=Melbourne, Australia">Melbourne, Australia</a></h4>
+                        <h4 style="font-weight: normal;"><span>Melbourne, Australia</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -3148,41 +2130,6 @@
                            <li><span class="ufoDesc">object in the
                                  sky</span></li>
                            <li><span class="ufoDesc">unusual shape</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="weather">clear cloudless blue</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">I also served in a light
-                                 Anti-aircraft Regiment of the Royal Artillery where you served by identification of
-                                 enemy aircraft in time to take proper action</span></li>
-                           <li><span class="event">For more than twenty-five
-                                 years I studied aircraft recognition as a civilian amateur and as a military
-                                 professional.</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="org">Royal Air Force
-                                 Section</span></li>
-                           <li><span class="org">The Ministry of Defence,</span></li>
-                           <li><span class="org">Army of Great Britain</span></li>
-                           <li><span class="org">Australia</span></li>
-                           <li><span class="org">British Army</span></li>
-                           <li><span class="org">MOD</span></li>
                         </ul>
                      </th>
                   </tr>
@@ -3208,7 +2155,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2623_Report_pg197.pdf" target="_blank">2623_Report_pg197</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2623_Report_pg197.pdf" target="_blank">2623_Report_pg197</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -3224,7 +2171,7 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=Portsmouth">Portsmouth</a></h4>
+                        <h4 style="font-weight: normal;"><span>Portsmouth</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -3235,42 +2182,6 @@
                            <li><span class="ufoDesc">oval/spherical object</span></li>
                            <li><span class="ufoDesc">accelerate very fast</span></li>
                            <li><span class="ufoDesc">wobble from side to side</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul></ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">as the 
-                                 <li><span class="ufoDesc">oval/spherical object</span></li> approached the aircraft it
-                                 appeared to 
-                                 <li><span class="ufoDesc">accelerate very fast</span></li>, in doing so it appeared to 
-                                 <li><span class="ufoDesc">wobble from side to side</span></li></span></li>
-                           <li><span class="event">it passed directly in front of the commercial aircraft narrowly avoiding a collision</span></li>
-                           <li><span class="event">object remained virtually
-                                 stationary throughout the duration of 10 mimutes until it finally disappeared in to
-                                 the
-                                 clouds</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="org">NATO</span></li>
-                           <li><span class="org">Airprox</span></li>
-                           <li><span class="org">Airprox</span></li>
-                           <li><span class="org">CAA</span></li>
-                           <li><span class="org">Airprox</span></li>
-                           <li><span class="org">CAA’s</span></li>
                         </ul>
                      </th>
                   </tr>
@@ -3296,7 +2207,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2456_Report_pg234.pdf" target="_blank">2456_Report_pg234</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2456_Report_pg234.pdf" target="_blank">2456_Report_pg234</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -3312,8 +2223,8 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=Dumfriesshire%0A            London">Dumfriesshire
-                              London</a></h4>
+                        <h4 style="font-weight: normal;"><span>Dumfriesshire
+                              London</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -3344,36 +2255,6 @@
                         </ul>
                      </th>
                   </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="weather">cold cloudy day</span></li>
-                           <li><span class="weather">A very clear blue sky it
-                                 was 1:15pm</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">I
-                                 watched it for about 20 minutes</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="org">RAF</span></li>
-                           <li><span class="org">RAF</span></li>
-                           <li><span class="org">ARIR</span></li>
-                           <li><span class="org">R.O.C.</span></li>
-                        </ul>
-                     </th>
-                  </tr>
                </table>
             </div>
          </div>
@@ -3397,7 +2278,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2628_Report_pg102.pdf" target="_blank">2628_Report_pg102</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2628_Report_pg102.pdf" target="_blank">2628_Report_pg102</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -3413,7 +2294,7 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=Bowland, Lancashire">Bowland, Lancashire</a></h4>
+                        <h4 style="font-weight: normal;"><span>Bowland, Lancashire</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -3426,31 +2307,6 @@
                            <li><span class="ufoDesc">the
                                  craft took off vertically at an amazing velocity</span></li>
                         </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="weather">The craft, however,
-                                 was unfortunately in the shadow of a cloud and cannot be seer to cast a
-                                 shadow</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event"> have submitted this photograph to many newspapers and ufo
-                                 groups</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul></ul>
                      </th>
                   </tr>
                </table>
@@ -3475,7 +2331,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2625_Report_pg61.pdf" target="_blank">2625_Report_pg61</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2625_Report_pg61.pdf" target="_blank">2625_Report_pg61</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -3491,7 +2347,7 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=Inverness">Inverness</a></h4>
+                        <h4 style="font-weight: normal;"><span>Inverness</span><span>Inverness</span><span>Inverness</span><span>Inverness</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -3500,32 +2356,6 @@
                         <ul>
                            <li><span class="ufoDesc">six bright
                                  orange circular lights</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="weather">2300-2330</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">couldn't judge distance of height</span></li>
-                           <li><span class="event">t
-                                 was not reflection on clouds, nor fireworks</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="org">ARCC</span></li>
                         </ul>
                      </th>
                   </tr>
@@ -3551,7 +2381,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2452_Report_pg156.pdf" target="_blank">2452_Report_pg156</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2452_Report_pg156.pdf" target="_blank">2452_Report_pg156</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -3567,7 +2397,7 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=Willshire">Willshire</a></h4>
+                        <h4 style="font-weight: normal;"><span>Willshire</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -3586,34 +2416,6 @@
                            <li><span class="ufoDesc">never seen anything travel so fast and it was definitely not an
                                  aircraft</span></li>
                         </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="weather">night shift</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">I am one of the world’s biggest sceptics when it come
-                                 to UFO’s</span></li>
-                           <li><span class="event">Sometime later I received a phone call from a very
-                                 agitated airman</span></li>
-                           <li><span class="event">His account caused the hairs on my neck to stand up</span></li>
-                           <li><span class="event">Several minutes later another airman telephoned and gave a similar
-                                 account.</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul></ul>
                      </th>
                   </tr>
                </table>
@@ -3638,7 +2440,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2628_Report_pg172.pdf" target="_blank">2628_Report_pg172</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2628_Report_pg172.pdf" target="_blank">2628_Report_pg172</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -3654,7 +2456,7 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=Witchurch">Witchurch</a></h4>
+                        <h4 style="font-weight: normal;"><span>Witchurch</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -3669,33 +2471,6 @@
                            <li><span class="ufoDesc">formation of a triangle</span></li>
                            <li><span class="ufoDesc">no sounds</span></li>
                         </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul></ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">I am writing to tell you what I really saw</span></li>
-                           <li><span class="event">We were parked up for about an
-                                 hour</span></li>
-                           <li><span class="event">we were all baffled by what was
-                                 happening all of us in dis-belife</span></li>
-                           <li><span class="event">Walking down a long road and
-                                 all 3 saw</span></li>
-                           <li><span class="event">I said look Boys what the fuck is that</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul></ul>
                      </th>
                   </tr>
                </table>
@@ -3720,7 +2495,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2450_Report_pg40.pdf" target="_blank">2450_Report_pg40</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2450_Report_pg40.pdf" target="_blank">2450_Report_pg40</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -3736,7 +2511,7 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=Birmingham">Birmingham</a></h4>
+                        <h4 style="font-weight: normal;"><span>Birmingham</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -3749,55 +2524,6 @@
                                  continuous (not flashing} blue/green lights</span></li>
                            <li><span class="ufoDesc">lights did not emanate from that ac</span></li>
                            <li><span class="ufoDesc">lights elumanated had been small and probably non-metallic </span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="weather">dark sky</span></li>
-                           <li><span class="weather">night
-                                 operations</span></li>
-                           <li><span class="weather">at night</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">saw unidentified lights flying
-                                 around their ac</span></li>
-                           <li><span class="event">maneuvered to avoid collision and to identify
-                                 the light source</span></li>
-                           <li><span class="event">location and time for the operation of UAVs, indeed virtually impossible for
-                                 military UAV activity</span></li>
-                           <li><span class="event">Military flights were ruled out since there was
-                                 no squawk observed and the area is out with the UKLFS.</span></li>
-                           <li><span class="event">Gliders, kites, tethered and untethered balloons were ruled out due ID the light and
-                                 weather conditions</span></li>
-                           <li><span class="event">A
-                                 laser light show was also discounted since there was no cloud base for the lights
-                                 to be
-                                 reflected on</span></li>
-                           <li><span class="event">ireworks or flares were also discounted since the light
-                                 source did not descend towards the ground as, even with parachute flares, would be
-                                 the
-                                 case and, in any case, the lights reported were not bright enough to be
-                                 pyrotechnics</span></li>
-                           <li><span class="event">Regrettably therefore, despite extensive tracing the source of the
-                                 lights could not be identified. </span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="org">ATSI</span></li>
-                           <li><span class="org">British Model Flying Association</span></li>
-                           <li><span class="org">ATC</span></li>
                         </ul>
                      </th>
                   </tr>
@@ -3823,7 +2549,7 @@
                         <h4>Report ID:</h4>
                      </th>
                      <td>
-                        <h4 style="font-weight: normal;"><a href="..//..//Reports_PDF/2448_Report_pg46.pdf" target="_blank">2448_Report_pg46</a></h4>
+                        <h4 style="font-weight: normal;"><a href="https://awingo-mckula.github.io/UFO//Reports_PDF/2448_Report_pg46.pdf" target="_blank">2448_Report_pg46</a></h4>
                      </td>
                   </tr>
                   <tr>
@@ -3839,7 +2565,7 @@
                         <h4>Event Location:</h4>
                      </th>
                      <th>
-                        <h4 style="font-weight: normal;"><a target="_blank" href="https://www.google.com/search?q=RAF Bentwaters">RAF Bentwaters</a></h4>
+                        <h4 style="font-weight: normal;"><span>RAF Bentwaters</span></h4>
                      </th>
                   </tr>
                   <tr>
@@ -3855,47 +2581,8 @@
                         </ul>
                      </th>
                   </tr>
-                  <tr>
-                     <th>Weather Conditions:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="weather">night</span></li>
-                           <li><span class="weather">Conditions on the night were misty</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Significant Notes:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="event">Tape recordings
-                                 were made on which the entities are heard to speak in an electronically synthesised
-                                 version
-                                 of English, with a strong American accent</span></li>
-                           <li><span class="event">Reports that craft was repaired
-                                 by US serviceman or was taken on to the base are not confirmed</span></li>
-                           <li><span class="event">Landing is not considered a defence issue in view of the
-                                 overt peaceful nature of the contact</span></li>
-                        </ul>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Associated Organizations:</th>
-                     <th style="font-weight: normal; text-align: left;">
-                        <ul>
-                           <li><span class="org">Ministry of Defence</span></li>
-                           <li><span class="org">OSI</span></li>
-                           <li><span class="org">OSI</span></li>
-                           <li><span class="org">OSI</span></li>
-                           <li><span class="org">OSI</span></li>
-                           <li><span class="org">SAC</span></li>
-                           <li><span class="org">OSI</span></li>
-                        </ul>
-                     </th>
-                  </tr>
                </table>
             </div>
          </div><button id="myBtn"><a href="#top" style="color: white">Back to Top</a></button></div>
    </body>
-   <div id="footer"></div>
 </html>
