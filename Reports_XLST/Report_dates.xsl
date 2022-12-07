@@ -10,7 +10,6 @@
     
     <xsl:variable name="UFOReports" select="collection('../Reports_XML/?select=*.xml')"/>
     
-    
     <xsl:template match="/">
         <html>
             <head>
