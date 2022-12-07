@@ -3,7 +3,7 @@
 <?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <report id="2461_Report_pg134">
-    <head>From: [] Sent: <eventDate date="06/14/2009">14 May 2009</eventDate> 14:21 To: Air
+    <head>From: [] Sent: <eventDate date="06/14/2009" toc="20090614">14 May 2009</eventDate> 14:21 To: Air
         CmdSecCS-UFO Desk Sublect: <eventName>sighting x2</eventName></head>
     <body>I would like to explain what I saw on the night of Saturday 9th May 2009 over []
             <eventLocation eloc="Ariow_Essex">ariow Essex</eventLocation>[] A <ufoDesc>diamond

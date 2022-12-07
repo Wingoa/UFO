@@ -3,7 +3,7 @@
 <?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <report id="2459_Report_pg44">
-    <head><eventDate date="02/23/2009">22:52 23 February 2009</eventDate></head>
+    <head><eventDate date="02/23/2009" toc="20090223">22:52 23 February 2009</eventDate></head>
     <address>Dear Sir/Madam,</address>
     <body>I live by <eventLocation eloc="WaterLoo">Waterloo, London</eventLocation>, on a 10th floor
         flat overlooking a substantial part of the southern part of the city. <event>I have become quite

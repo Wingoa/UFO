@@ -3,7 +3,7 @@
 <?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <report id="2628_Report_pg102">
-    <body>This photograph was taken by myself on <eventDate date="08/27/2006">Sunday the 27th of
+    <body>This photograph was taken by myself on <eventDate date="08/27/2006" toc="20060827">Sunday the 27th of
             August 2006</eventDate>, in the Trough of <eventLocation eloc="Bowland_Lancashire"
             >Bowland, Lancashire</eventLocation> about 3 miles from <eventName>Dunsop
             Drickie</eventName> traveling towards Lancaster and captured <ufoDesc>something flying

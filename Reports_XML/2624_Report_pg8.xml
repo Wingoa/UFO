@@ -16,7 +16,7 @@
         telephone: []
         country: UK
         emailaddress: []
-        incident: 10.40pm <eventDate date="04/09/2008">04/09/2008</eventDate>
+        incident: 10.40pm <eventDate date="04/09/2008" toc="20080409">04/09/2008</eventDate>
        </head> 
         
     <body>request: Me and a friend were heading up the <eventName>A19 north bound</eventName>, going just past

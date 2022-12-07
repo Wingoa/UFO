@@ -131,6 +131,8 @@
 
                     <xsl:for-each select="$UFOReports//report">
                         <xsl:sort select="//eventDate/@date!tokenize(.,'/')[3]" order="descending"/>
+                       
+                     
                         <div class="row justify-content-center" id="{//@id}">
                             <div class="col">
                             </div>

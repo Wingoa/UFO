@@ -3,7 +3,7 @@
 <?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <report id="2459_Report_pg184">
-    <head>Christmas Day <eventDate date="12/25/2008">25/12/08</eventDate> 8:20pm</head>
+    <head>Christmas Day <eventDate date="12/25/2008" toc="20081225">25/12/08</eventDate> 8:20pm</head>
     <address>Enquiry:</address>
     <body>I hope that you can help as this isn't a complaint. Like many others my husband and I saw
             <ufoDesc>strange objects flying</ufoDesc> in the <eventName>south side of

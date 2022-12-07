@@ -6,7 +6,7 @@
 
     <address>Hi</address>
     <body> I would like to report a UFO sighting. I organised a <eventName>BBQ for some
-            friends</eventName> on <eventDate date="07/11/2009">11th July 2009</eventDate> at my
+            friends</eventName> on <eventDate date="07/11/2009" toc="20090711">11th July 2009</eventDate> at my
         parents home in <eventLocation eloc="Palmers_Green">palmers green, North
             London</eventLocation> (n13). We live in a small row of terraced houses just off the
         A406, on a busy dual carriageway. The weather was pretty <weather>drizzly</weather> that

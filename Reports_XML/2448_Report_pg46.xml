@@ -14,7 +14,7 @@
     <body> As you know, <organization org="OSI">OSI</organization> has completed a report on the
             <ufoDesc>landing of a craft of unknown origin crewed by several entities</ufoDesc> near
             <eventLocation eloc="Raf_Bentwaters">RAF Bentwaters</eventLocation> on the <weather>night</weather> of the
-            <eventDate date="12/29/1980">December 29/30 1980</eventDate>. Interestingly,
+            <eventDate date="12/29/1980" toc="19801229">December 29/30 1980</eventDate>. Interestingly,
             <organization org="OSI">OSI</organization> reports that the <ufoDesc>entities were
             approximately 1 ½ meters tall, wearing what appeared to be nylon coated pressure suits,
             but no helmets</ufoDesc>. <weather>Conditions on the night were misty</weather>,

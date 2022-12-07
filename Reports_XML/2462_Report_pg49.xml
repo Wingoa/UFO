@@ -3,7 +3,7 @@
 <?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <report id="2462_Report_pg49">
-    <head> Air CmdSecCS-RAFBusSec13 [] From: [] Sent: <eventDate date="08/07/2009">07 August
+    <head> Air CmdSecCS-RAFBusSec13 [] From: [] Sent: <eventDate date="08/07/2009" toc="20090807">07 August
             2009</eventDate> 17:58 To: Air GmdSecCS-UFO Desk1 Subiect: <eventName>Weird
             Obiect</eventName> Photo Attachments: CIMG0590.JPG: CIMG0591.JPG</head>
     <address> Hi there</address>

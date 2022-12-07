@@ -3,7 +3,7 @@
 <?xml-model href="../Schema/Report_Schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <report id="2459_Report_pg42">
-    <head>Sent: <eventDate date="02/15/2009">15 February 2009</eventDate> 10:26 To: Air CmdSecCS-UFO
+    <head>Sent: <eventDate date="02/15/2009" toc="20090215">15 February 2009</eventDate> 10:26 To: Air CmdSecCS-UFO
         Desk Subject: <eventName>Sighting over Winwick</eventName></head>
     <body>During the <weather>early hours</weather> of 15 February 2009 at around
             <weather>00:15hrs</weather> i was with my wife and two friends driving through
