@@ -4,11 +4,7 @@
 		<meta charset="UTF-8" />
 		<title>UFO Map</title>
 		<link type="text/css" href="style.css" rel="stylesheet" />
-		<script
-			src="https://code.jquery.com/jquery-3.3.1.js"
-			integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-			crossorigin="anonymous"
-		></script>
+		<script src="myscripts.js"></script>
 		<script>
 			$(function () {
 				$("#header").load("header.html");
@@ -16,8 +12,11 @@
 			});
 		</script>
 		<style>
-			.row {
-				margin-bottom: 0% !important;
+			img {
+				width: 40%;
+				height: auto;
+				/* Magic! */
+				max-width: 70vw;
 			}
 		</style>
 	</head>
@@ -47,12 +46,24 @@
 		</div>
 		<iframe
 			src="https://www.google.com/maps/d/embed?mid=18v0GpfOOnIm9ycTdURpLlPPKuz6MBSM&ehbc=2E312F"
-			width="90%"
+			width="80%"
 			height="80%"
 			style="
 				box-shadow: 5px 5px 5px black, 0 0 25px rgb(4, 4, 4), 0 0 5px darkblue;
 			"
 		></iframe>
+		<div class="row mt">
+			<div class="col center">
+				<img
+					style="
+						box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+						border: 2px solid black;
+					"
+					src="assets/population-map.png"
+					alt="UFO 1"
+				/>
+			</div>
+		</div>
 		<div id="footer"></div>
 	</body>
 </html>

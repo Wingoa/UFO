@@ -109,6 +109,10 @@ h1 {
     justify-content: center;
 }
 
+.mt{
+  margin-top: 50px;
+}
+
 .row>* {
   flex-shrink: 0;
   width: 100%;
