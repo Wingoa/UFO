@@ -12,8 +12,11 @@
 			});
 		</script>
 		<style>
-			li {
-				margin-bottom: 10px;
+			img {
+				width: 100%;
+				height: auto;
+				/* Magic! */
+				max-width: 70vw;
 			}
 		</style>
 	</head>
@@ -26,110 +29,163 @@
 			</h1>
 
 			<div class="row">
-				<div class="col-8" style="font-size: x-large">
-					<p>
-						This project was created to collect, organize, and summarize a small
-						archive of UFO reports released by the United Kingdom government in
-						2013. These documents include testimonials and reports from a wide
-						range of professional law enforcement/military personnel and
-						civilians who had personnally witnessed an unidentified object.
-					</p>
-					<p>
-						All source materials were collected from the UFOs section of
-						<a href="https://www.nationalarchives.gov.uk/ufos/" target="_blank"
-							>the National Archives website</a
-						>. All content was available under the
+				<div class="col-8">
+					<div class="about">
+						<p>
+							This project was created to collect, organize, and summarize a
+							small archive of UFO reports released by the United Kingdom
+							government in 2013. These documents include testimonials and
+							reports from a wide range of professional law enforcement/military
+							personnel and civilians who had personally witnessed an
+							unidentified object.
+						</p>
 						<br />
-						<a
-							href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
-							target="_blank"
-							>Open Government Licence v3.0</a
-						>.
-					</p>
-					<br />
+						<p>
+							All source materials were collected from the UFOs section of
+							<a
+								href="https://www.nationalarchives.gov.uk/ufos/"
+								target="_blank"
+								>the National Archives website</a
+							>. All content was available under the
+							<br />
+							<a
+								href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+								target="_blank"
+								>Open Government Licence v3.0</a
+							>.
+						</p>
+					</div>
+
 					<hr />
 					<br />
 				</div>
 				<div class="row">
-					<div class="col-8" style="font-size: x-large">
-						<h2>Team members involved</h2>
+					<div class="col-8">
+						<div class="about">
+							<h2>Team Members Involved</h2>
 
-						<p>
-							<strong>Lara V. :</strong> Web design/UX maven & Quality control
-							officer
-						</p>
+							<p>
+								<strong>Lara V. :</strong> Web design/UX maven & Quality control
+								officer
+							</p>
 
-						<p>
-							<strong>Ryan F. :</strong> Documentation officer & Quality control
-							officer
-						</p>
+							<p>
+								<strong>Ryan F. :</strong> Documentation officer & Quality
+								control officer
+							</p>
 
-						<p>
-							<strong>Austin W. :</strong> Team co-ordinator & Subject expert
-						</p>
+							<p>
+								<strong>Austin W. :</strong> Team co-ordinator & Subject expert
+							</p>
 
-						<p><strong>Dr. Campbell :</strong> Course Professor</p>
+							<p><strong>Dr. Campbell :</strong> Course Professor</p>
+						</div>
 					</div>
 				</div>
 
 				<div class="row">
-					<div class="col">
-						<div
-							class="card"
-							style="
-								color: white;
-								font-size: 18px;
-								background-color: black;
-								background-image: url(assets/stars.png);
-							"
-						>
-							<h2><u>Our Process</u></h2>
-							<ol style="text-align: start">
-								<li>
-									Our first step was to gather all neccessary files from
+					<div class="col-12">
+						<div class="card about-card">
+							<div class="about">
+								<h2><u>Our Process</u></h2>
+								<ol style="text-align: start">
+									<li>
+										Our first step was to gather all neccessary files from
+										<a
+											href="https://www.nationalarchives.gov.uk/ufos/"
+											target="_blank"
+											>the National Archives website</a
+										>.
+									</li>
+
+									<li>
+										After downloading all files, we began processing each .pdf
+										file. This step involved reading through each file and
+										identifying the appropriate UFO reports.
+									</li>
+									<li>
+										We then tranformed each .pdf report to a .docx file. This
+										step required a great deal of manual transciptions and usage
+										of OCR software available from Adobe.
+									</li>
+									<li>
+										Once the team had all the .pdf reports transformed into
+										.docx files, we were able to begin inputing the text into
+										.xml files.
+									</li>
+									<li>
+										Along with transfering the text into .xml, we started on our
+										.xml mark-up proccess to identify the important information
+										in each UFO Report.
+									</li>
+									<li>
+										We gradually continued marking-up our .xml files while we
+										began development on our user interface.
+									</li>
+									<li>
+										Our xml mark-up began with us identifying what information
+										appeared to be standard throughout each UFO Report. These
+										elements inlcuded dates, locations, organizations,
+										enviromental conditions, key notes, and of course UFO
+										descriptions.
+									</li>
+									<li>
+										At this point, we created a standardized schema that we
+										could import into each xml file.
+									</li>
+									<li>
+										Along with the xml work, we began creating our charts and
+										tables based on the information that we had so far. This
+										included our xsl style sheets that we used for the report
+										tables and the bar graphs on the statistics page.
+									</li>
+									<li>
+										The team completed all .xml mark-up and this is where we
+										implimented our .xslt procedures to create our .html pages.
+									</li>
+									<li>
+										One of our last steps was refining the .xml mark-up and the
+										layout of our .html pages, charts, and report tables.
+									</li>
+									<li>
+										Then some final tweaks on the user interface. This was most
+										changing the layout of some pages and adding to the global
+										.css file.
+									</li>
+									<li>
+										Not long after that we had what you are looking at today!
+									</li>
+								</ol>
+								<br />
+								<p>
+									There is still a great deal that could be added to the site.
+									The UFO map could include direct url's to the cordinating
+									report. There are still is a large number of reports that
+									could be processed and added to the site. If someone was
+									interested in doing this, all of the reports still exist on
 									<a
 										href="https://www.nationalarchives.gov.uk/ufos/"
 										target="_blank"
 										>the National Archives website</a
-									>.
-								</li>
-
-								<li>
-									After downloading all files, we began processing each .pdf
-									file. This step involved reading through each file and
-									identifying the appropriate UFO reports.
-								</li>
-								<li>
-									We then tranformed each .pdf report to a .docx file. This step
-									required a great deal of manual transciptions and usage of OCR
-									software available from Adobe.
-								</li>
-								<li>
-									Once the team had all the .pdf reports transformed into .docx
-									files, we were able to begin inputing the text into .xml
-									files.
-								</li>
-								<li>
-									Along with transfering the text into .xml, we started on our
-									.xml mark-up proccess to identify the important information in
-									each UFO Report.
-								</li>
-								<li>
-									We gradually continued marking-up our .xml files while we
-									began development on our user interface.
-								</li>
-								<li>
-									The team completed all .xml mark-up and this is where we
-									implimented our .xslt procedures to create our .html pages.
-								</li>
-								<li>
-									Our last step was refining the .xml mark-up and the layout of
-									our .html pages.
-								</li>
-								<li>
-									Not long after that we had what you are looking at today!
-								</li>
-							</ol>
+									>. There are many reports that are simple and do not contain
+									as much open text as the ones that we used. Listed below is an
+									example of one of those reports. There are approximately 50 -
+									80 of these reports included with the National Archives
+									collection. Could be a fun idea if you need a new project!
+								</p>
+								<div class="row justify-content-center">
+									<div class="col center">
+										<img
+											style="
+												box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+												border: 2px solid black;
+											"
+											src="assets/DEFE-24-2623_pg2_Example.jpg"
+											alt="UFO 1"
+										/>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
