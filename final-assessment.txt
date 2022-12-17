@@ -1,0 +1,11 @@
+Instructor's Report
+UFO Reporter Project
+Date: December 17, 2022
+
+This was an ambitious project. The scope of documents released by The National Archives (UK) ran to thousands of pages, which the team needed to download, browse through, classify, and select, before attempting OCR on sometimes bad scans of documents and eventally needing to do a lot of hand transcription. And all of that was before any markup or analysis could begin.
+
+The user interface is clean and easy to navigate; the aesthetic is also entirely appropriate, combining good principles of web design (giving it an air of professionalism) with a lightheartedness about the subject. The web coding was sophisticated, which is a strength for this site but also has a drawback: if a subsequent team either wanted to take this project further or wanted to learn from the coding here (particularly the JavaScript), they would have to be quite proficient coders already to do so.
+
+The team made the most of the flexibility of XML: it allows for classification of data but without the rigidity of a database. By marking up texts that all contained similar types of information but in a variety of formats, they were able to present the text in its original format while also deriving consistent data from it via XSLT and creating formatted outputs.
+
+-Dr. Campbell
